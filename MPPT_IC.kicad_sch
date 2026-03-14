@@ -7801,7 +7801,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "14895b18-a1b2-4457-be4e-c6444f3f1561")
 		(property "Reference" "D14"
 			(at 57.15 30.4799 90)
@@ -12694,7 +12693,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7445e2bd-5805-4137-af40-2076602c7438")
 		(property "Reference" "R26"
 			(at 57.15 40.6399 0)

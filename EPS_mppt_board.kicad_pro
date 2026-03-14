@@ -654,11 +654,7 @@
     ],
     [
       "3c4bc196-78b1-489d-9686-12ce4f1e3b6d",
-      "3.3V Line"
-    ],
-    [
-      "eb5b66ba-9c58-40ee-9b99-43397bb0bb45",
-      "5V Line"
+      "3.3V and 5V Line"
     ]
   ],
   "text_variables": {}
