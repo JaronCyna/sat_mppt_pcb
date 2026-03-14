@@ -1,0 +1,2448 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "dc0b0b55-faba-49b0-8525-bf012c5f4958")
+	(paper "A4")
+	(lib_symbols
+		(symbol "VST104:PC104_module"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "PC"
+				(at 1.27 142.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PC104_module"
+				(at 15.24 142.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "VST104_footprints:PC104_footprint"
+				(at 6.35 137.16 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 6.35 137.16 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PC104_module_0_1"
+				(rectangle
+					(start 0 1.27)
+					(end 22.86 140.97)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "PC104_module_1_1"
+				(pin bidirectional line
+					(at -3.81 138.43 0)
+					(length 3.81)
+					(name "H1-1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H1_1"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -3.81 135.89 0)
+					(length 3.81)
+					(name "H1-2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H1_2"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -3.81 133.35 0)
+					(length 3.81)
+					(name "H1-3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H1_3"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -3.81 130.81 0)
+					(length 3.81)
+					(name "H1-4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H1_4"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -3.81 128.27 0)
+					(length 3.81)
+					(name "H1-5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H1_5"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -3.81 125.73 0)
+					(length 3.81)
+					(name "H1-6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H1_6"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -3.81 123.19 0)
+					(length 3.81)
+					(name "H1-7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H1_7"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -3.81 120.65 0)
+					(length 3.81)
+					(name "H1-8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H1_8"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -3.81 118.11 0)
+					(length 3.81)
+					(name "H1-9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H1_9"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -3.81 115.57 0)
+					(length 3.81)
+					(name "H1-10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H1_10"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -3.81 113.03 0)
+					(length 3.81)
+					(name "H1-11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H1_11"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -3.81 110.49 0)
+					(length 3.81)
+					(name "H1-12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H1_12"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -3.81 107.95 0)
+					(length 3.81)
+					(name "H1-13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H1_13"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -3.81 105.41 0)
+					(length 3.81)
+					(name "H1-14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H1_14"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -3.81 102.87 0)
+					(length 3.81)
+					(name "H1-15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H1_15"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -3.81 100.33 0)
+					(length 3.81)
+					(name "H1-16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H1_16"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -3.81 97.79 0)
+					(length 3.81)
+					(name "H1-17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H1_17"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -3.81 95.25 0)
+					(length 3.81)
+					(name "H1-18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H1_18"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -3.81 92.71 0)
+					(length 3.81)
+					(name "H1-19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H1_19"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -3.81 90.17 0)
+					(length 3.81)
+					(name "H1-20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H1_20"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -3.81 87.63 0)
+					(length 3.81)
+					(name "H1-21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H1_21"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -3.81 85.09 0)
+					(length 3.81)
+					(name "H1-22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H1_22"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -3.81 82.55 0)
+					(length 3.81)
+					(name "H1-23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H1_23"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -3.81 80.01 0)
+					(length 3.81)
+					(name "H1-24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H1_24"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -3.81 77.47 0)
+					(length 3.81)
+					(name "H1-25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H1_25"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -3.81 74.93 0)
+					(length 3.81)
+					(name "H1-26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H1_26"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -3.81 72.39 0)
+					(length 3.81)
+					(name "H1-27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H1_27"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -3.81 69.85 0)
+					(length 3.81)
+					(name "H1-28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H1_28"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -3.81 67.31 0)
+					(length 3.81)
+					(name "H1-29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H1_29"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -3.81 64.77 0)
+					(length 3.81)
+					(name "H1-30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H1_30"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -3.81 62.23 0)
+					(length 3.81)
+					(name "H1-31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H1_31"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -3.81 59.69 0)
+					(length 3.81)
+					(name "H1-32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H1_32"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -3.81 57.15 0)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H1_33"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -3.81 54.61 0)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H1_34"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -3.81 52.07 0)
+					(length 3.81)
+					(name "H1-35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H1_35"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -3.81 49.53 0)
+					(length 3.81)
+					(name "H1-36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H1_36"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -3.81 46.99 0)
+					(length 3.81)
+					(name "H1-37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H1_37"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -3.81 44.45 0)
+					(length 3.81)
+					(name "H1-38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H1_38"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -3.81 41.91 0)
+					(length 3.81)
+					(name "H1-39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H1_39"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -3.81 39.37 0)
+					(length 3.81)
+					(name "H1-40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H1_40"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -3.81 36.83 0)
+					(length 3.81)
+					(name "H1-41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H1_41"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -3.81 34.29 0)
+					(length 3.81)
+					(name "H1-42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H1_42"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -3.81 31.75 0)
+					(length 3.81)
+					(name "H1-43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H1_43"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -3.81 29.21 0)
+					(length 3.81)
+					(name "H1-44"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H1_44"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -3.81 26.67 0)
+					(length 3.81)
+					(name "H1-45"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H1_45"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -3.81 24.13 0)
+					(length 3.81)
+					(name "H1-46"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H1_46"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -3.81 21.59 0)
+					(length 3.81)
+					(name "H1-47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H1_47"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -3.81 19.05 0)
+					(length 3.81)
+					(name "H1-48"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H1_48"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -3.81 16.51 0)
+					(length 3.81)
+					(name "H1-49"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H1_49"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -3.81 13.97 0)
+					(length 3.81)
+					(name "H1-50"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H1_50"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -3.81 11.43 0)
+					(length 3.81)
+					(name "H1-51"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H1_51"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -3.81 8.89 0)
+					(length 3.81)
+					(name "H1-52"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H1_52"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 7.62 -1.27 90)
+					(length 2.54)
+					(name "MH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MH1"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 10.16 -1.27 90)
+					(length 2.54)
+					(name "MH2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MH2"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 12.7 -1.27 90)
+					(length 2.54)
+					(name "MH3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MH3"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 15.24 -1.27 90)
+					(length 2.54)
+					(name "MH4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MH4"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 26.67 138.43 180)
+					(length 3.81)
+					(name "H2-1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H2_1"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 26.67 135.89 180)
+					(length 3.81)
+					(name "H2-2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H2_2"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 26.67 133.35 180)
+					(length 3.81)
+					(name "H2-3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H2_3"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 26.67 130.81 180)
+					(length 3.81)
+					(name "H2-4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H2_4"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 26.67 128.27 180)
+					(length 3.81)
+					(name "H2-5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H2_5"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 26.67 125.73 180)
+					(length 3.81)
+					(name "H2-6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H2_6"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 26.67 123.19 180)
+					(length 3.81)
+					(name "H2-7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H2_7"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 26.67 120.65 180)
+					(length 3.81)
+					(name "H2-8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H2_8"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 26.67 118.11 180)
+					(length 3.81)
+					(name "H2-9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H2_9"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 26.67 115.57 180)
+					(length 3.81)
+					(name "H2-10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H2_10"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 26.67 113.03 180)
+					(length 3.81)
+					(name "H2-11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H2_11"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 26.67 110.49 180)
+					(length 3.81)
+					(name "H2-12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H2_12"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 26.67 107.95 180)
+					(length 3.81)
+					(name "H2-13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H2_13"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 26.67 105.41 180)
+					(length 3.81)
+					(name "H2-14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H2_14"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 26.67 102.87 180)
+					(length 3.81)
+					(name "H2-15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H2_15"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 26.67 100.33 180)
+					(length 3.81)
+					(name "H2-16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H2_16"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 26.67 97.79 180)
+					(length 3.81)
+					(name "H2-17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H2_17"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 26.67 95.25 180)
+					(length 3.81)
+					(name "H2-18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H2_18"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 26.67 92.71 180)
+					(length 3.81)
+					(name "H2-19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H2_19"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 26.67 90.17 180)
+					(length 3.81)
+					(name "H2-20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H2_20"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 26.67 87.63 180)
+					(length 3.81)
+					(name "H2-21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H2_21"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 26.67 85.09 180)
+					(length 3.81)
+					(name "H2-22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H2_22"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 26.67 82.55 180)
+					(length 3.81)
+					(name "CAN2_H"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H2_23"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 26.67 80.01 180)
+					(length 3.81)
+					(name "CAN2_L"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H2_24"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 26.67 77.47 180)
+					(length 3.81)
+					(name "SUP_5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H2_25"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 26.67 74.93 180)
+					(length 3.81)
+					(name "SUP_5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H2_26"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 26.67 72.39 180)
+					(length 3.81)
+					(name "SUP_3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H2_27"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 26.67 69.85 180)
+					(length 3.81)
+					(name "SUP_3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H2_28"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 26.67 67.31 180)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H2_29"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 26.67 64.77 180)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H2_30"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 26.67 62.23 180)
+					(length 3.81)
+					(name "AGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H2_31"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 26.67 59.69 180)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H2_32"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 26.67 57.15 180)
+					(length 3.81)
+					(name "SUP_UNREG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H2_33"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 26.67 54.61 180)
+					(length 3.81)
+					(name "SUP_UNREG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H2_34"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 26.67 52.07 180)
+					(length 3.81)
+					(name "H2_35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H2_35"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 26.67 49.53 180)
+					(length 3.81)
+					(name "H2_36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H2_36"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 26.67 46.99 180)
+					(length 3.81)
+					(name "H2-37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H2_37"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 26.67 44.45 180)
+					(length 3.81)
+					(name "H2-38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H2_38"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 26.67 41.91 180)
+					(length 3.81)
+					(name "H2-39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H2_39"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 26.67 39.37 180)
+					(length 3.81)
+					(name "H2-40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H2_40"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 26.67 36.83 180)
+					(length 3.81)
+					(name "H2-41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H2_41"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 26.67 34.29 180)
+					(length 3.81)
+					(name "H2-42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H2_42"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 26.67 31.75 180)
+					(length 3.81)
+					(name "H2-43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H2_43"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 26.67 29.21 180)
+					(length 3.81)
+					(name "H2-44"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H2_44"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 26.67 26.67 180)
+					(length 3.81)
+					(name "SUP_BAT_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H2_45"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 26.67 24.13 180)
+					(length 3.81)
+					(name "SUP_BAT_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H2_46"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 26.67 21.59 180)
+					(length 3.81)
+					(name "H2-47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H2_47"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 26.67 19.05 180)
+					(length 3.81)
+					(name "H2-48"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H2_48"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 26.67 16.51 180)
+					(length 3.81)
+					(name "H2-49"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H2_49"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 26.67 13.97 180)
+					(length 3.81)
+					(name "H2-50"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H2_50"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 26.67 11.43 180)
+					(length 3.81)
+					(name "H2-51"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H2_51"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 26.67 8.89 180)
+					(length 3.81)
+					(name "H2-52"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H2_52"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text_box "NOT FINAL PLACEMENT"
+		(exclude_from_sim no)
+		(at 182.88 53.34 0)
+		(size 21.59 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 158 218 255 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "9aad612b-a9ab-459a-a020-bc28d9756b5a")
+	)
+	(wire
+		(pts
+			(xy 170.18 55.88) (xy 157.48 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4d8966a-1b29-4942-8984-68b3c20cf025")
+	)
+	(hierarchical_label "OBC_Notif"
+		(shape input)
+		(at 170.18 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "484a707d-8e6f-40d3-a132-02afe1c90918")
+	)
+	(symbol
+		(lib_id "VST104:PC104_module")
+		(at 130.81 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73d74f26-0d89-42a7-b3b0-d5aa112854fd")
+		(property "Reference" "PC1"
+			(at 142.24 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PC104_module"
+			(at 142.24 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "VST104_footprints:PC104_footprint"
+			(at 137.16 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 130.81 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "H1_4"
+			(uuid "743d277f-dfc4-4039-9103-1f6e5f5e17b7")
+		)
+		(pin "H1_7"
+			(uuid "5650c404-c872-4c27-be43-c9fba6a417a7")
+		)
+		(pin "H1_9"
+			(uuid "982feb30-8307-40ce-8751-d3b23ffe5fd3")
+		)
+		(pin "H1_11"
+			(uuid "024df665-beb1-43af-96d9-91304977bd02")
+		)
+		(pin "H1_13"
+			(uuid "42855397-ca86-4693-985c-e0fbd0f344fa")
+		)
+		(pin "H1_15"
+			(uuid "1150e8c2-5a54-448e-a220-73e7fd197fb4")
+		)
+		(pin "H1_6"
+			(uuid "19f0b438-3f5c-4026-b4d8-c605b417f9b4")
+		)
+		(pin "H1_19"
+			(uuid "e32c5167-5841-441d-9851-5b9e3101af90")
+		)
+		(pin "H1_1"
+			(uuid "87dc67ab-bc2a-462f-9e1a-73eb23763315")
+		)
+		(pin "H1_2"
+			(uuid "4ecab09e-fa1d-49ee-af7e-f38554e55123")
+		)
+		(pin "H1_3"
+			(uuid "978a5afc-e6a9-47d8-b30d-c505fc1b06b5")
+		)
+		(pin "H1_5"
+			(uuid "ca76bc88-0fc7-45b6-b258-c328b01598d1")
+		)
+		(pin "H1_8"
+			(uuid "9ad4b0e5-0939-4408-9121-88987372e16d")
+		)
+		(pin "H1_10"
+			(uuid "5ae59de2-0473-44bb-9778-b0f7f5a8eded")
+		)
+		(pin "H1_12"
+			(uuid "98646226-22b7-4076-b5c1-00ad2427f9e7")
+		)
+		(pin "H1_14"
+			(uuid "da5a7219-a065-43da-be9e-404e8fc8c430")
+		)
+		(pin "H1_16"
+			(uuid "9aeec833-5ea1-4382-bcc5-4f548b4669bb")
+		)
+		(pin "H1_17"
+			(uuid "07ce01ac-f6d0-42bb-8c5e-d3bc3b61d904")
+		)
+		(pin "H1_18"
+			(uuid "4136feb2-78db-49c6-bac9-7483e002dfca")
+		)
+		(pin "H1_28"
+			(uuid "261a4d6b-7c29-48ff-83d0-1e881135570b")
+		)
+		(pin "H1_33"
+			(uuid "dfae74ee-c7ff-4cbe-87c1-a903fe7a7f6a")
+		)
+		(pin "H1_46"
+			(uuid "b94a9bde-e8ca-4a7a-93ee-ac795b614b28")
+		)
+		(pin "H1_27"
+			(uuid "aef46546-9a17-43af-bf59-25b58aefc07c")
+		)
+		(pin "H1_35"
+			(uuid "d626f401-9145-4044-a1c7-d8147dbe616d")
+		)
+		(pin "H1_20"
+			(uuid "42d18183-e676-47e3-b400-e4ac78808e65")
+		)
+		(pin "H1_36"
+			(uuid "38659e1c-b15a-4cfa-b78b-4cd0610f5da2")
+		)
+		(pin "H1_26"
+			(uuid "5490e748-ad05-42d1-a5a3-93f7c59f4896")
+		)
+		(pin "H1_38"
+			(uuid "dce54054-b58d-44b0-b120-d7ae4fc2244e")
+		)
+		(pin "H1_23"
+			(uuid "d0c22b16-bf4f-4d03-a5f2-42a2d8f4384a")
+		)
+		(pin "H1_30"
+			(uuid "db3a5c26-9827-4912-8057-79e70ec9fb5c")
+		)
+		(pin "H1_31"
+			(uuid "bff7fbee-88d9-4b76-84e4-7d8145ea333e")
+		)
+		(pin "H1_22"
+			(uuid "4b29db80-5c00-46ba-b388-ad773483dedf")
+		)
+		(pin "H1_24"
+			(uuid "dbed4288-28b2-4651-a735-7dccd399e601")
+		)
+		(pin "H1_32"
+			(uuid "a78e1636-ff2a-4017-9463-57366d95ef30")
+		)
+		(pin "H1_43"
+			(uuid "1f0291dd-0ca6-48bc-aa99-2313126cb52c")
+		)
+		(pin "H1_29"
+			(uuid "c4b4ce46-4cb4-45db-ae15-121e7005a38f")
+		)
+		(pin "H1_25"
+			(uuid "710e72ee-ac1f-453f-9353-534c3f10c627")
+		)
+		(pin "H1_34"
+			(uuid "e5bcb5e5-222d-4a6d-964a-402ec0d83582")
+		)
+		(pin "H1_37"
+			(uuid "76533b9c-cb8e-40e9-bedc-904fcdffce67")
+		)
+		(pin "H1_41"
+			(uuid "c7ab505d-4666-4981-ae4b-ba490e80b188")
+		)
+		(pin "H1_42"
+			(uuid "cf59d273-82dc-4625-9042-978f5878869f")
+		)
+		(pin "H1_21"
+			(uuid "6aed4b3a-3ef5-468f-816b-0d1763a23772")
+		)
+		(pin "H1_39"
+			(uuid "eb6dd052-bf20-4c99-aaaf-b4299d5b3378")
+		)
+		(pin "H1_44"
+			(uuid "ea255066-1e57-4a54-93aa-d1bad1b19c9d")
+		)
+		(pin "H1_45"
+			(uuid "974cebc9-601c-4fe2-bde7-facf27fce545")
+		)
+		(pin "H1_40"
+			(uuid "0d6b85a7-a229-44d2-9e01-1662624d51b7")
+		)
+		(pin "H1_47"
+			(uuid "1544d8b1-413a-4cae-a265-a9f06db46e1f")
+		)
+		(pin "H1_48"
+			(uuid "44066e7e-4596-4144-9909-eb0cd54705e0")
+		)
+		(pin "H2_13"
+			(uuid "93e41276-c814-4f85-8fac-de4b897a5896")
+		)
+		(pin "MH4"
+			(uuid "e78b920f-e0e5-45e4-8b02-2c2652e51228")
+		)
+		(pin "H2_2"
+			(uuid "f2fcb8ee-3af4-4ec3-a075-afac56ded9f2")
+		)
+		(pin "H2_17"
+			(uuid "e3bac407-3562-416c-8ef6-cb790db7ad8c")
+		)
+		(pin "H1_49"
+			(uuid "e178557c-0a1c-4273-b3ef-951809e183b2")
+		)
+		(pin "H1_50"
+			(uuid "6a29dcbc-e7b6-4526-800d-e2c9fea84835")
+		)
+		(pin "H2_3"
+			(uuid "97c2303a-2072-43af-956c-41457c24f8da")
+		)
+		(pin "H2_7"
+			(uuid "f4aea72a-ddb6-4e53-b9cc-1b3c27f7d3e8")
+		)
+		(pin "H2_4"
+			(uuid "72edb146-cff3-4265-9acc-5cebb5be34b1")
+		)
+		(pin "H2_9"
+			(uuid "56a42822-20be-471c-9491-30dae0ab1f8b")
+		)
+		(pin "MH2"
+			(uuid "2e1f3e06-5e73-4518-8283-1c943b617d9d")
+		)
+		(pin "MH3"
+			(uuid "7e9df946-1213-42d7-99a2-f0ccfb49f7ff")
+		)
+		(pin "H1_51"
+			(uuid "4a01c95e-77a7-4525-b828-7c6737df063f")
+		)
+		(pin "H1_52"
+			(uuid "70778c8b-7bba-4726-9835-64ecfeca27ed")
+		)
+		(pin "H2_1"
+			(uuid "4ee0c8b1-5e97-43cb-8c91-bfee2b44fb41")
+		)
+		(pin "H2_10"
+			(uuid "1ccfb096-dddb-4012-ab86-15fcfeb56b58")
+		)
+		(pin "H2_11"
+			(uuid "b6506e9b-0484-409f-ab00-643e7f49a645")
+		)
+		(pin "H2_6"
+			(uuid "51603976-eb44-416e-b9d9-fb7a9533e375")
+		)
+		(pin "H2_5"
+			(uuid "f33d531a-f568-4ce5-83be-6140ca327992")
+		)
+		(pin "MH1"
+			(uuid "36636e6a-13ac-433a-b7ed-da9e688dc961")
+		)
+		(pin "H2_8"
+			(uuid "2654c689-3baf-48fc-80b2-d5d5780c139e")
+		)
+		(pin "H2_12"
+			(uuid "3c686e45-8b65-4ce6-bc2b-819db7a40281")
+		)
+		(pin "H2_14"
+			(uuid "8ad8812c-16f0-4070-84cb-71956bbe100e")
+		)
+		(pin "H2_15"
+			(uuid "2cf4d10a-dae6-4ba1-b37f-1395868f8cf8")
+		)
+		(pin "H2_16"
+			(uuid "9ea3eaf1-22b4-4549-baad-0121faf3ccf1")
+		)
+		(pin "H2_30"
+			(uuid "edf950f5-beaf-4ccb-84ba-dbd201f11898")
+		)
+		(pin "H2_18"
+			(uuid "46a425d6-3485-4754-820b-0afa317ea043")
+		)
+		(pin "H2_35"
+			(uuid "a43abc4d-b2d8-43c1-9105-71e9cce82449")
+		)
+		(pin "H2_45"
+			(uuid "5d8870f8-22b6-4f64-a9ea-0c3ca50db193")
+		)
+		(pin "H2_42"
+			(uuid "47e9b541-f254-457e-9762-0547d316e5d5")
+		)
+		(pin "H2_27"
+			(uuid "0997c964-8ff6-4051-ac3c-2da6e93b9690")
+		)
+		(pin "H2_22"
+			(uuid "7d7265dd-5ce3-4dea-918e-744440a6f36e")
+		)
+		(pin "H2_24"
+			(uuid "2d516126-b79f-450b-a79d-7710fd3b4392")
+		)
+		(pin "H2_31"
+			(uuid "f5a96ecc-9105-43b8-a90d-4ce3ce0c7645")
+		)
+		(pin "H2_32"
+			(uuid "a6858ac4-9b7e-4ec5-bcdd-ebe7387c637d")
+		)
+		(pin "H2_38"
+			(uuid "b41ba44b-ef07-4ee3-bb4f-16541ab81f10")
+		)
+		(pin "H2_29"
+			(uuid "a5e50eb6-a649-44eb-8382-caca6a3a6bd3")
+		)
+		(pin "H2_37"
+			(uuid "615f7b36-8e49-493c-8f52-111678745f37")
+		)
+		(pin "H2_19"
+			(uuid "2880ffee-194f-483c-b04c-4043c137c7a3")
+		)
+		(pin "H2_40"
+			(uuid "d117c3f4-fd30-4f35-85b5-6c3e31d0ebdc")
+		)
+		(pin "H2_41"
+			(uuid "7531390b-b334-4571-93e7-dc7b2beb28bd")
+		)
+		(pin "H2_25"
+			(uuid "7df47757-2735-4c43-8499-151c83553aec")
+		)
+		(pin "H2_26"
+			(uuid "fcc1b2b7-038d-4b08-a0f6-1166c6a45665")
+		)
+		(pin "H2_36"
+			(uuid "b68d1405-963a-4884-a12f-1f8d77468238")
+		)
+		(pin "H2_28"
+			(uuid "2e6106c8-dc37-4917-a3c3-5d3cf9c5bbb6")
+		)
+		(pin "H2_20"
+			(uuid "ccbc7b11-cbab-498d-8539-1dfb98fa036f")
+		)
+		(pin "H2_39"
+			(uuid "0dcd7e63-c42b-403a-9efb-ec23ad6ba93b")
+		)
+		(pin "H2_21"
+			(uuid "1bc76ef6-dcf9-4634-bd94-46d7df1a3be5")
+		)
+		(pin "H2_23"
+			(uuid "b504ef53-386c-4371-ab31-6c886f4900fa")
+		)
+		(pin "H2_43"
+			(uuid "4f14a7a8-792c-4464-bbbf-8b8e799f9eba")
+		)
+		(pin "H2_33"
+			(uuid "650ed04d-0559-4bc5-8a72-53b7665d3de5")
+		)
+		(pin "H2_34"
+			(uuid "1e74cd09-f1e9-4bef-9c2d-031b2aa84767")
+		)
+		(pin "H2_44"
+			(uuid "ddebcc4f-049e-4bd3-9f73-a0dac737a7b6")
+		)
+		(pin "H2_46"
+			(uuid "48120f3a-1f6b-4dbb-b158-0ef2e8cfc33c")
+		)
+		(pin "H2_49"
+			(uuid "964a461b-21ab-4715-b58c-c221b5329839")
+		)
+		(pin "H2_47"
+			(uuid "db13de3d-f705-47f7-9971-2960e6d7a16d")
+		)
+		(pin "H2_48"
+			(uuid "84c5dcd3-1c4e-4f30-90a3-f1c29437e4b7")
+		)
+		(pin "H2_50"
+			(uuid "edb97309-f974-4301-a148-3ac003ab9ac0")
+		)
+		(pin "H2_51"
+			(uuid "b2b327f4-499a-4d86-a6e8-440c80f0a859")
+		)
+		(pin "H2_52"
+			(uuid "e27dd622-3fd2-41e0-97e1-eba25d637b59")
+		)
+		(instances
+			(project ""
+				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/154a146f-e13c-49ce-9bd5-d811e5485ce9"
+					(reference "PC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

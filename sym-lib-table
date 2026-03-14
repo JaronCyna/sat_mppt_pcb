@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "MPPT_Parts")(type "KiCad")(uri "${KIPRJMOD}/MPPT_Parts.kicad_sym")(options "")(descr ""))
+)
