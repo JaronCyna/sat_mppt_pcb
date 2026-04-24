@@ -558,14 +558,74 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": true,
+          "label": "MANUFACTURER_PART_NUMBER",
+          "name": "MANUFACTURER_PART_NUMBER",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VENDOR",
+          "name": "VENDOR",
+          "show": false
+        },
+        {
+          "group_by": true,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Value"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -613,18 +673,6 @@
       "Root"
     ],
     [
-      "79c1400e-66c5-401e-9c2a-b2728f675b32",
-      "STM32"
-    ],
-    [
-      "72c2e0df-eab9-4296-90c4-08bd60416552",
-      "MPPT"
-    ],
-    [
-      "cff83340-e008-45cf-b5d2-b26a9bfb4efe",
-      "External WatchDog"
-    ],
-    [
       "1cb04f15-5cd4-4c9d-a391-62735eda9253",
       "3.3V Logic"
     ],
@@ -637,20 +685,20 @@
       "MPPT IC"
     ],
     [
-      "0b35a7b5-b504-4fbf-9bb2-d6dcd13c2d56",
-      "I2C Mux"
-    ],
-    [
       "bc2f1682-e3ae-4ffc-84d8-70ef19ac3f89",
       "STM32L4"
     ],
     [
-      "154a146f-e13c-49ce-9bd5-d811e5485ce9",
-      "PC104"
+      "0b35a7b5-b504-4fbf-9bb2-d6dcd13c2d56",
+      "I2C Mux"
     ],
     [
-      "02d6c116-e2b0-4afa-9ec2-ca23e4a93ba6",
-      "12V Line"
+      "5683cac5-9988-4b0a-8935-fabef808a774",
+      "Current Sensing and Fault Detection"
+    ],
+    [
+      "154a146f-e13c-49ce-9bd5-d811e5485ce9",
+      "PC104"
     ],
     [
       "3c4bc196-78b1-489d-9686-12ce4f1e3b6d",

@@ -4,6 +4,9 @@
 	(generator_version "9.0")
 	(uuid "cc50ab6d-0dbb-43d7-a70c-7e50606ae0a1")
 	(paper "A4")
+	(title_block
+		(company "QSET (Jaron Cyna)")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers

@@ -4,9 +4,6 @@
 	(generator_version "9.0")
 	(uuid "dc0b0b55-faba-49b0-8525-bf012c5f4958")
 	(paper "A4")
-	(title_block
-		(company "QSET (Jaron Cyna)")
-	)
 	(lib_symbols
 		(symbol "VST104:PC104_module"
 			(pin_names
