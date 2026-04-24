@@ -1443,10 +1443,22 @@
 		(uuid "776850a6-6c18-42cd-9831-c9b3a6291b5a")
 	)
 	(junction
+		(at 83.82 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85c9affb-ed9c-4123-b91d-f755a079dd07")
+	)
+	(junction
 		(at 50.8 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "87be7a63-4930-49fb-9a5e-655204d653bd")
+	)
+	(junction
+		(at 242.57 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92a0dc03-99db-4763-9cf8-a580df0199d2")
 	)
 	(junction
 		(at 50.8 92.71)
@@ -1758,7 +1770,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 81.28) (xy 186.69 81.28)
+			(xy 186.69 81.28) (xy 242.57 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1928,7 +1940,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 85.09) (xy 251.46 85.09)
+			(xy 240.03 85.09) (xy 242.57 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2028,16 +2040,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 99.06) (xy 105.41 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f0fbdc0-29c8-4921-bd9c-f9bd522466bf")
-	)
-	(wire
-		(pts
 			(xy 190.5 73.66) (xy 186.69 73.66)
 		)
 		(stroke
@@ -2045,6 +2047,16 @@
 			(type default)
 		)
 		(uuid "948e6121-a5a1-4c66-9a60-fc2eda59f84e")
+	)
+	(wire
+		(pts
+			(xy 242.57 85.09) (xy 251.46 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95700cf1-e9f9-4562-abe2-81edc1c7accb")
 	)
 	(wire
 		(pts
@@ -2058,7 +2070,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 102.87) (xy 85.09 102.87)
+			(xy 69.85 102.87) (xy 83.82 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2115,6 +2127,16 @@
 			(type default)
 		)
 		(uuid "b01d3429-c0a3-4378-92ee-21e38df2b102")
+	)
+	(wire
+		(pts
+			(xy 83.82 99.06) (xy 83.82 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0e6c153-568a-46cb-897d-28cf7ec77ce9")
 	)
 	(wire
 		(pts
@@ -2178,6 +2200,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 99.06) (xy 105.41 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfc91451-81b0-4fce-9297-d6e5c1f43c4c")
+	)
+	(wire
+		(pts
 			(xy 186.69 99.06) (xy 190.5 99.06)
 		)
 		(stroke
@@ -2225,6 +2257,16 @@
 			(type default)
 		)
 		(uuid "ce70d8d7-ba78-463a-abf7-6647bef0f2b8")
+	)
+	(wire
+		(pts
+			(xy 83.82 102.87) (xy 85.09 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d359e999-6423-4e47-a381-b81a874705cc")
 	)
 	(wire
 		(pts
@@ -2308,6 +2350,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 81.28) (xy 242.57 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2a69409-2d7b-4a8b-9677-6efee02fce82")
+	)
+	(wire
+		(pts
 			(xy 190.5 96.52) (xy 186.69 96.52)
 		)
 		(stroke
@@ -2355,16 +2407,6 @@
 			(justify left bottom)
 		)
 		(uuid "5a7e1b58-83f2-4e96-b018-f5724debc186")
-	)
-	(label "VOUT2"
-		(at 74.93 102.87 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "735809db-3bf1-4a80-9065-4e98c499e801")
 	)
 	(label "INTVCC"
 		(at 199.39 96.52 180)
@@ -2495,16 +2537,6 @@
 			(justify right bottom)
 		)
 		(uuid "fef01b0d-bc26-45ee-b2b3-cdcd98928c1a")
-	)
-	(label "VOUT1"
-		(at 251.46 85.09 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ff69310e-c701-485b-aaca-6fc4c3b78d25")
 	)
 	(hierarchical_label "Battery_V_in1"
 		(shape input)
@@ -2806,7 +2838,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a8fa69f-dd9e-46e6-9ae1-e92aa135a5b1")
-		(property "Reference" "#PWR0116"
+		(property "Reference" "#PWR0115"
 			(at 251.46 118.11 0)
 			(effects
 				(font
@@ -2856,7 +2888,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/3c4bc196-78b1-489d-9686-12ce4f1e3b6d"
-					(reference "#PWR0116")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
@@ -2871,7 +2903,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "240a3f0a-ce57-4893-a0a8-b744ac90ce91")
-		(property "Reference" "C67"
+		(property "Reference" "C63"
 			(at 256.794 105.664 0)
 			(effects
 				(font
@@ -2923,7 +2955,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/3c4bc196-78b1-489d-9686-12ce4f1e3b6d"
-					(reference "C67")
+					(reference "C63")
 					(unit 1)
 				)
 			)
@@ -3346,7 +3378,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6d2f0380-2b45-4c42-91f9-4afc55599294")
-		(property "Reference" "C65"
+		(property "Reference" "C62"
 			(at 198.882 103.124 90)
 			(effects
 				(font
@@ -3362,7 +3394,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 199.39 100.6348 0)
 			(effects
 				(font
@@ -3398,7 +3430,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/3c4bc196-78b1-489d-9686-12ce4f1e3b6d"
-					(reference "C65")
+					(reference "C62")
 					(unit 1)
 				)
 			)
@@ -3413,7 +3445,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "735f343c-8664-4c35-8bc5-4b9c93e7c3d7")
-		(property "Reference" "C61"
+		(property "Reference" "C58"
 			(at 210.312 74.93 90)
 			(effects
 				(font
@@ -3429,7 +3461,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 209.55 75.2348 0)
 			(effects
 				(font
@@ -3465,7 +3497,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/3c4bc196-78b1-489d-9686-12ce4f1e3b6d"
-					(reference "C61")
+					(reference "C58")
 					(unit 1)
 				)
 			)
@@ -3550,7 +3582,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "791696ac-c440-4cbb-bfc4-c461ea9cf43c")
-		(property "Reference" "C64"
+		(property "Reference" "C61"
 			(at 238.252 98.044 90)
 			(effects
 				(font
@@ -3602,7 +3634,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/3c4bc196-78b1-489d-9686-12ce4f1e3b6d"
-					(reference "C64")
+					(reference "C61")
 					(unit 1)
 				)
 			)
@@ -3617,7 +3649,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "99263880-3697-46ad-b37c-f615428bddab")
-		(property "Reference" "C62"
+		(property "Reference" "C59"
 			(at 228.092 88.392 0)
 			(effects
 				(font
@@ -3633,7 +3665,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 221.2848 86.36 0)
 			(effects
 				(font
@@ -3669,7 +3701,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/3c4bc196-78b1-489d-9686-12ce4f1e3b6d"
-					(reference "C62")
+					(reference "C59")
 					(unit 1)
 				)
 			)
@@ -4059,7 +4091,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ccf7c8e2-6906-4f59-b373-5272d8fbf1cb")
-		(property "Reference" "#PWR0115"
+		(property "Reference" "#PWR0116"
 			(at 69.85 123.19 0)
 			(effects
 				(font
@@ -4109,7 +4141,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/3c4bc196-78b1-489d-9686-12ce4f1e3b6d"
-					(reference "#PWR0115")
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -4260,7 +4292,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f7eda6a0-797b-4480-9855-650638b8a0af")
-		(property "Reference" "C66"
+		(property "Reference" "C64"
 			(at 64.516 110.998 0)
 			(effects
 				(font
@@ -4312,7 +4344,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/3c4bc196-78b1-489d-9686-12ce4f1e3b6d"
-					(reference "C66")
+					(reference "C64")
 					(unit 1)
 				)
 			)
@@ -4327,7 +4359,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ffbf37e8-9783-479a-a428-a71eb8a7f187")
-		(property "Reference" "C63"
+		(property "Reference" "C60"
 			(at 90.678 95.25 90)
 			(effects
 				(font
@@ -4343,7 +4375,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 91.44 94.9452 0)
 			(effects
 				(font
@@ -4379,7 +4411,7 @@
 		(instances
 			(project ""
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/3c4bc196-78b1-489d-9686-12ce4f1e3b6d"
-					(reference "C63")
+					(reference "C60")
 					(unit 1)
 				)
 			)

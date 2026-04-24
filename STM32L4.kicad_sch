@@ -4174,27 +4174,6 @@
 		)
 		(uuid "f0ba3a4b-92fc-4ca7-b589-f31bc201a7b8")
 	)
-	(text_box "Change Cap Values when oscillator selected"
-		(exclude_from_sim no)
-		(at 53.34 118.11 0)
-		(size 21.59 7.62)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type color)
-			(color 158 218 255 1)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "b87cca55-feeb-42d6-8158-92452a7bfd4e")
-	)
 	(junction
 		(at 62.23 31.75)
 		(diameter 0)
@@ -6717,7 +6696,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 140.462 36.83 90)
 			(effects
 				(font
@@ -6786,7 +6765,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 250.19 96.52 0)
 			(effects
 				(font
@@ -7275,7 +7254,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7760998b-09d4-4047-bdaa-d77b603d63f2")
-		(property "Reference" "C51"
+		(property "Reference" "C48"
 			(at 90.17 34.2899 0)
 			(effects
 				(font
@@ -7347,7 +7326,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/bc2f1682-e3ae-4ffc-84d8-70ef19ac3f89"
-					(reference "C51")
+					(reference "C48")
 					(unit 1)
 				)
 			)
@@ -7362,7 +7341,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "78f91fd8-7945-4037-9429-9cdf98a810c2")
-		(property "Reference" "C54"
+		(property "Reference" "C51"
 			(at 248.666 115.316 90)
 			(effects
 				(font
@@ -7430,7 +7409,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/bc2f1682-e3ae-4ffc-84d8-70ef19ac3f89"
-					(reference "C54")
+					(reference "C51")
 					(unit 1)
 				)
 			)
@@ -7446,7 +7425,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81916fab-953e-4910-bde3-3ef85ecb8181")
-		(property "Reference" "C49"
+		(property "Reference" "C46"
 			(at 66.04 34.2899 0)
 			(effects
 				(font
@@ -7518,7 +7497,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/bc2f1682-e3ae-4ffc-84d8-70ef19ac3f89"
-					(reference "C49")
+					(reference "C46")
 					(unit 1)
 				)
 			)
@@ -7533,7 +7512,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "88194a35-e9ce-49ca-adcb-570772203fd4")
-		(property "Reference" "C57"
+		(property "Reference" "C54"
 			(at 41.91 154.9399 0)
 			(effects
 				(font
@@ -7605,7 +7584,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/bc2f1682-e3ae-4ffc-84d8-70ef19ac3f89"
-					(reference "C57")
+					(reference "C54")
 					(unit 1)
 				)
 			)
@@ -7637,7 +7616,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Oscillator:Oscillator_SMD_EuroQuartz_XO32-4Pin_3.2x2.5mm"
 			(at 34.29 118.11 0)
 			(effects
 				(font
@@ -7887,7 +7866,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9eda2bbe-611e-428f-b648-a5661a294b05")
-		(property "Reference" "C47"
+		(property "Reference" "C44"
 			(at 43.18 34.2899 0)
 			(effects
 				(font
@@ -7959,7 +7938,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/bc2f1682-e3ae-4ffc-84d8-70ef19ac3f89"
-					(reference "C47")
+					(reference "C44")
 					(unit 1)
 				)
 			)
@@ -8041,7 +8020,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0a9458a-eb56-40f7-a078-806a5ba43220")
-		(property "Reference" "C48"
+		(property "Reference" "C45"
 			(at 54.61 34.2899 0)
 			(effects
 				(font
@@ -8113,7 +8092,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/bc2f1682-e3ae-4ffc-84d8-70ef19ac3f89"
-					(reference "C48")
+					(reference "C45")
 					(unit 1)
 				)
 			)
@@ -8194,7 +8173,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7836877-9660-4077-a012-3008a347cfd3")
-		(property "Reference" "C46"
+		(property "Reference" "C43"
 			(at 30.48 34.2899 0)
 			(effects
 				(font
@@ -8248,7 +8227,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/bc2f1682-e3ae-4ffc-84d8-70ef19ac3f89"
-					(reference "C46")
+					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -8605,7 +8584,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 234.442 87.63 90)
 			(effects
 				(font
@@ -9015,7 +8994,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc497206-0520-48b7-a2c5-6c5716a9ee4c")
-		(property "Reference" "C53"
+		(property "Reference" "C50"
 			(at 179.07 45.7199 0)
 			(effects
 				(font
@@ -9033,7 +9012,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 176.2252 50.8 0)
 			(effects
 				(font
@@ -9069,7 +9048,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/bc2f1682-e3ae-4ffc-84d8-70ef19ac3f89"
-					(reference "C53")
+					(reference "C50")
 					(unit 1)
 				)
 			)
@@ -9240,7 +9219,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 248.412 87.63 90)
 			(effects
 				(font
@@ -9292,7 +9271,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd698a15-c7e9-4e80-8063-45db633fbd5c")
-		(property "Reference" "C50"
+		(property "Reference" "C47"
 			(at 77.47 34.2899 0)
 			(effects
 				(font
@@ -9364,7 +9343,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/bc2f1682-e3ae-4ffc-84d8-70ef19ac3f89"
-					(reference "C50")
+					(reference "C47")
 					(unit 1)
 				)
 			)
@@ -9517,7 +9496,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e4bc207e-b29c-4334-ace0-07f3ba57293f")
-		(property "Reference" "C56"
+		(property "Reference" "C53"
 			(at 42.926 123.19 0)
 			(effects
 				(font
@@ -9526,7 +9505,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "18pF"
+		(property "Value" "10pF"
 			(at 42.926 125.73 0)
 			(effects
 				(font
@@ -9535,7 +9514,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
 			(at 46.0248 128.27 0)
 			(effects
 				(font
@@ -9562,6 +9541,22 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" "DigiKey"
+			(at 46.99 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "GRM1555C1H100FA01D"
+			(at 46.99 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a9c28f0a-198c-496b-8d8a-7f55f888cfe2")
 		)
@@ -9571,7 +9566,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/bc2f1682-e3ae-4ffc-84d8-70ef19ac3f89"
-					(reference "C56")
+					(reference "C53")
 					(unit 1)
 				)
 			)
@@ -9587,7 +9582,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1d6f2fe-2d51-4d7b-b7e8-c4db54002877")
-		(property "Reference" "C52"
+		(property "Reference" "C49"
 			(at 166.37 45.7199 0)
 			(effects
 				(font
@@ -9659,7 +9654,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/bc2f1682-e3ae-4ffc-84d8-70ef19ac3f89"
-					(reference "C52")
+					(reference "C49")
 					(unit 1)
 				)
 			)
@@ -9675,7 +9670,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f3f5892d-be61-4f0e-ac3d-a812fc246bb7")
-		(property "Reference" "C55"
+		(property "Reference" "C52"
 			(at 28.956 123.444 0)
 			(effects
 				(font
@@ -9684,7 +9679,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "18pF"
+		(property "Value" "10pF"
 			(at 28.956 125.984 0)
 			(effects
 				(font
@@ -9693,7 +9688,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
 			(at 20.6248 128.27 0)
 			(effects
 				(font
@@ -9720,6 +9715,22 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" "DigiKey"
+			(at 21.59 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "GRM1555C1H100FA01D"
+			(at 21.59 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8af5f3fa-8c56-4426-a507-61b4a866ba60")
 		)
@@ -9729,7 +9740,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/bc2f1682-e3ae-4ffc-84d8-70ef19ac3f89"
-					(reference "C55")
+					(reference "C52")
 					(unit 1)
 				)
 			)
@@ -9763,7 +9774,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 262.382 87.63 90)
 			(effects
 				(font
@@ -9901,7 +9912,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 236.22 96.52 0)
 			(effects
 				(font
@@ -10045,7 +10056,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 264.16 96.52 0)
 			(effects
 				(font
