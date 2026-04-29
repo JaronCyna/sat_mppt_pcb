@@ -2159,71 +2159,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(rectangle
-		(start 12.7 12.7)
-		(end 284.48 100.33)
-		(stroke
-			(width 0.762)
-			(type solid)
-			(color 132 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 3c301994-2219-4f41-aa6b-d26268d61ed3)
-	)
-	(rectangle
-		(start 12.7 100.33)
-		(end 284.48 189.23)
-		(stroke
-			(width 0.762)
-			(type solid)
-			(color 132 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 4bf4ffff-a393-4632-acef-bc3493210bf0)
-	)
-	(rectangle
-		(start 12.7 189.23)
-		(end 284.48 278.13)
-		(stroke
-			(width 0.762)
-			(type solid)
-			(color 132 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 70c78f16-45b4-4bfd-b1e4-71b259e9f4f9)
-	)
-	(rectangle
-		(start 110.49 367.03)
-		(end 176.53 407.67)
-		(stroke
-			(width 0.762)
-			(type solid)
-			(color 132 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid aa863f01-c8a8-4bad-ac63-83b97178016c)
-	)
-	(rectangle
-		(start 12.7 278.13)
-		(end 284.48 367.03)
-		(stroke
-			(width 0.762)
-			(type solid)
-			(color 132 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid d30f8ed5-56f3-4be3-9543-59583de8885f)
-	)
 	(text "-X MPPT"
 		(exclude_from_sim no)
 		(at 30.988 105.664 0)
@@ -3435,6 +3370,16 @@
 		)
 		(uuid "20177441-2571-4716-a473-1e2688e83765")
 	)
+	(polyline
+		(pts
+			(xy 110.49 367.03) (xy 175.26 367.03)
+		)
+		(stroke
+			(width 0.762)
+			(type dash)
+		)
+		(uuid "20a89b49-5205-46e0-9e15-95183dc2cb23")
+	)
 	(wire
 		(pts
 			(xy 43.18 313.69) (xy 54.61 313.69)
@@ -4455,6 +4400,16 @@
 		)
 		(uuid "6dcb139e-6b51-42dc-a889-ab6e12f89fea")
 	)
+	(polyline
+		(pts
+			(xy 12.7 99.06) (xy 284.48 99.06)
+		)
+		(stroke
+			(width 0.762)
+			(type dash)
+		)
+		(uuid "6dd757b5-868a-4ff0-b04f-908a87485d6b")
+	)
 	(wire
 		(pts
 			(xy 177.8 63.5) (xy 177.8 66.04)
@@ -4624,6 +4579,16 @@
 			(type default)
 		)
 		(uuid "7a1257e9-de5e-4340-8005-66f008080436")
+	)
+	(polyline
+		(pts
+			(xy 12.7 189.23) (xy 284.48 189.23)
+		)
+		(stroke
+			(width 0.762)
+			(type dash)
+		)
+		(uuid "7ae0cb5a-129c-424f-9194-968e82c51d86")
 	)
 	(wire
 		(pts
@@ -4964,6 +4929,16 @@
 			(type default)
 		)
 		(uuid "9a15135a-1cea-4f40-bd86-a8209b73f4db")
+	)
+	(polyline
+		(pts
+			(xy 175.26 367.03) (xy 175.26 407.67)
+		)
+		(stroke
+			(width 0.762)
+			(type dash)
+		)
+		(uuid "9b9ffcec-e365-484c-9557-ce02bbc4af3b")
 	)
 	(wire
 		(pts
@@ -5824,6 +5799,16 @@
 			(type default)
 		)
 		(uuid "dbd85164-5e27-45cc-8d15-48c701d62a43")
+	)
+	(polyline
+		(pts
+			(xy 12.7 278.13) (xy 284.48 278.13)
+		)
+		(stroke
+			(width 0.762)
+			(type dash)
+		)
+		(uuid "dd240f30-2e24-4797-8e44-fa372819bdb8")
 	)
 	(wire
 		(pts
@@ -7336,6 +7321,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" "CL05B223KP5NNNC"
@@ -7344,6 +7330,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -7551,6 +7538,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" "CL31B106KAHNFNE"
@@ -7559,6 +7547,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -8409,6 +8398,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" "CL05B223KP5NNNC"
@@ -8417,6 +8407,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10312,6 +10303,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" "CL32B226KAJNFNE"
@@ -10320,6 +10312,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10495,6 +10488,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" "CL05B223KP5NNNC"
@@ -11073,6 +11067,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" "T52M9107M035C0055"
@@ -11081,6 +11076,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -11905,6 +11901,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" "CL32B226KAJNFNE"
@@ -11913,6 +11910,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -11988,6 +11986,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" "CL31B106KAHNFNE"
@@ -11996,6 +11995,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -14172,6 +14172,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" "CL32B226KAJNFNE"
@@ -14180,6 +14181,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -14924,6 +14926,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" "CL31B106KAHNFNE"
@@ -14932,6 +14935,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -17032,6 +17036,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" "CL10B475KQ8NQNC"
@@ -17040,6 +17045,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -17584,6 +17590,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" "CL32B226KAJNFNE"
@@ -17592,6 +17599,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -17990,6 +17998,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" "CL31B106KAHNFNE"

@@ -3684,6 +3684,191 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_Nidec_CAS-120A1"
+			(pin_names
+				(offset 1)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 4.318 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_Nidec_CAS-120A1"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switch, single pole double throw"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Nidec?Copal?CAS?120A*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Nidec_CAS-120A1_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_Nidec_CAS-120A1_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
@@ -3915,9 +4100,9 @@
 		(start 229.87 19.05)
 		(end 278.13 44.45)
 		(stroke
-			(width 0.254)
-			(type dash)
-			(color 0 0 194 1)
+			(width 0)
+			(type solid)
+			(color 132 0 0 1)
 		)
 		(fill
 			(type none)
@@ -3928,9 +4113,9 @@
 		(start 17.78 134.62)
 		(end 87.63 191.77)
 		(stroke
-			(width 0.254)
-			(type dash)
-			(color 0 0 194 1)
+			(width 0)
+			(type default)
+			(color 132 0 0 1)
 		)
 		(fill
 			(type none)
@@ -3941,9 +4126,9 @@
 		(start 17.78 105.41)
 		(end 50.8 134.62)
 		(stroke
-			(width 0.254)
-			(type dash)
-			(color 0 0 194 1)
+			(width 0)
+			(type default)
+			(color 132 0 0 1)
 		)
 		(fill
 			(type none)
@@ -3954,9 +4139,9 @@
 		(start 229.87 69.85)
 		(end 278.13 113.03)
 		(stroke
-			(width 0.254)
-			(type dash)
-			(color 0 0 194 1)
+			(width 0)
+			(type solid)
+			(color 132 0 0 1)
 		)
 		(fill
 			(type none)
@@ -3967,9 +4152,9 @@
 		(start 229.87 113.03)
 		(end 278.13 156.21)
 		(stroke
-			(width 0.254)
-			(type dash)
-			(color 0 0 194 1)
+			(width 0)
+			(type solid)
+			(color 132 0 0 1)
 		)
 		(fill
 			(type none)
@@ -3980,9 +4165,9 @@
 		(start 229.87 44.45)
 		(end 278.13 69.85)
 		(stroke
-			(width 0.254)
-			(type dash)
-			(color 0 0 194 1)
+			(width 0)
+			(type solid)
+			(color 132 0 0 1)
 		)
 		(fill
 			(type none)
@@ -3993,9 +4178,9 @@
 		(start 17.526 16.256)
 		(end 96.52 52.07)
 		(stroke
-			(width 0.254)
-			(type dash)
-			(color 0 0 194 1)
+			(width 0)
+			(type default)
+			(color 132 0 0 1)
 		)
 		(fill
 			(type none)
@@ -4071,27 +4256,6 @@
 			)
 		)
 		(uuid "f0ba3a4b-92fc-4ca7-b589-f31bc201a7b8")
-	)
-	(text_box "Remember to solder BOOT0 to Gnd before launch"
-		(exclude_from_sim no)
-		(at 205.74 55.88 0)
-		(size 21.59 7.62)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type color)
-			(color 158 218 255 1)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "61633890-f5d4-405a-9b71-d33c534561df")
 	)
 	(junction
 		(at 62.23 31.75)
@@ -4703,7 +4867,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 67.31) (xy 124.46 67.31)
+			(xy 101.6 67.31) (xy 124.46 67.31)
 		)
 		(stroke
 			(width 0)
@@ -4923,7 +5087,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 57.15) (xy 255.27 57.15)
+			(xy 248.92 58.42) (xy 241.3 58.42)
 		)
 		(stroke
 			(width 0)
@@ -5080,16 +5244,6 @@
 			(type default)
 		)
 		(uuid "aabccc8d-b5ec-4cfa-9fd1-3a7f907bd7e8")
-	)
-	(wire
-		(pts
-			(xy 104.14 67.31) (xy 99.06 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab7a68bb-5191-4fa0-a09c-249eea61adb1")
 	)
 	(wire
 		(pts
@@ -5310,6 +5464,16 @@
 			(type default)
 		)
 		(uuid "d8ca3212-008f-4dbc-a994-fcd07770b4d7")
+	)
+	(wire
+		(pts
+			(xy 276.86 58.42) (xy 267.97 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbb64e43-d4a4-4c98-91d1-77b9f5ab11c8")
 	)
 	(wire
 		(pts
@@ -5601,16 +5765,6 @@
 		)
 		(uuid "53c1853e-071d-4089-b480-095b1954d979")
 	)
-	(label "BOOT0"
-		(at 99.06 67.31 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6d247c8a-d255-43ae-a26c-50c81b4027d7")
-	)
 	(label "BLUE"
 		(at 264.16 76.2 270)
 		(effects
@@ -5620,6 +5774,16 @@
 			(justify right bottom)
 		)
 		(uuid "7164112e-3c9a-4bcd-ae70-1dd478cff5fc")
+	)
+	(label "BOOT0"
+		(at 276.86 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "785a1fe3-84ab-4ee1-a558-fa5059ecd431")
 	)
 	(label "SWDIO"
 		(at 265.43 31.75 180)
@@ -5632,7 +5796,7 @@
 		(uuid "7bcac200-957b-4056-a1dd-d7c108ac8b91")
 	)
 	(label "BOOT0"
-		(at 262.89 57.15 180)
+		(at 248.92 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5650,6 +5814,16 @@
 			(justify right bottom)
 		)
 		(uuid "818d7bc8-7021-426c-a99b-ac24680ef447")
+	)
+	(label "BOOT0"
+		(at 101.6 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8345a4db-d36c-4c3f-a9b0-8b35b515827c")
 	)
 	(label "OSC_Out"
 		(at 21.59 118.11 0)
@@ -7257,7 +7431,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 251.46 52.07 270)
+		(at 237.49 53.34 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7266,7 +7440,7 @@
 		(dnp no)
 		(uuid "723e7486-08f0-4831-9dfd-490d0cab1208")
 		(property "Reference" "#PWR089"
-			(at 247.65 52.07 0)
+			(at 233.68 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7275,7 +7449,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 255.27 52.07 0)
+			(at 241.3 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7283,7 +7457,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 251.46 52.07 0)
+			(at 237.49 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7292,7 +7466,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 52.07 0)
+			(at 237.49 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7301,7 +7475,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 251.46 52.07 0)
+			(at 237.49 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7730,6 +7904,73 @@
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/bc2f1682-e3ae-4ffc-84d8-70ef19ac3f89"
 					(reference "#PWR0103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 257.81 60.96 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d623ee2-fb3f-40ae-99a4-3e57870aae82")
+		(property "Reference" "#PWR091"
+			(at 257.81 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 257.81 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.81 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 257.81 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b916d98b-8cde-4a75-bbb8-ab2e6220af66")
+		)
+		(instances
+			(project "EPS_mppt_board"
+				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/bc2f1682-e3ae-4ffc-84d8-70ef19ac3f89"
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -9073,7 +9314,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_3_Open")
-		(at 251.46 57.15 90)
+		(at 237.49 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -9081,7 +9322,7 @@
 		(dnp no)
 		(uuid "dc66e37e-dcd1-4f4b-b6aa-62ab649540ba")
 		(property "Reference" "JP3"
-			(at 253.746 64.516 90)
+			(at 239.776 65.786 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9090,7 +9331,7 @@
 			)
 		)
 		(property "Value" "SolderJumper"
-			(at 259.08 66.294 90)
+			(at 245.11 67.564 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9099,7 +9340,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-			(at 251.46 57.15 0)
+			(at 237.49 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9108,7 +9349,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 251.46 57.15 0)
+			(at 237.49 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9117,7 +9358,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 3-pole, open"
-			(at 251.46 57.15 0)
+			(at 237.49 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9367,6 +9608,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 257.81 55.88 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "def231d7-cf73-44f5-9a23-b837526249c8")
+		(property "Reference" "#PWR090"
+			(at 257.81 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 257.81 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.81 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 257.81 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97cfa856-26f9-413d-b6d1-7035b80bac24")
+		)
+		(instances
+			(project "EPS_mppt_board"
+				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/bc2f1682-e3ae-4ffc-84d8-70ef19ac3f89"
+					(reference "#PWR090")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 34.29 113.03 180)
 		(unit 1)
@@ -9426,6 +9733,77 @@
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/bc2f1682-e3ae-4ffc-84d8-70ef19ac3f89"
 					(reference "#PWR0118")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Nidec_CAS-120A1")
+		(at 262.89 58.42 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e23423b0-48c9-468f-930c-186c74443aec")
+		(property "Reference" "SW1"
+			(at 263.906 47.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW"
+			(at 263.906 49.784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+			(at 262.89 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
+			(at 262.89 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 262.89 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "51ce9b02-072e-4843-88fb-3097417a75ca")
+		)
+		(pin "2"
+			(uuid "77ac51cf-1b4b-4857-974e-dca4592e5f36")
+		)
+		(pin "3"
+			(uuid "4108106a-b9a9-4499-a827-952ef88bf070")
+		)
+		(instances
+			(project ""
+				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/bc2f1682-e3ae-4ffc-84d8-70ef19ac3f89"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -9833,7 +10211,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 251.46 62.23 90)
+		(at 237.49 63.5 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9843,7 +10221,7 @@
 		(fields_autoplaced yes)
 		(uuid "f64f4c6d-b1d7-489e-96ce-559dbd138eed")
 		(property "Reference" "#PWR092"
-			(at 257.81 62.23 0)
+			(at 243.84 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9852,7 +10230,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 255.27 62.2299 90)
+			(at 241.3 63.4999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9861,7 +10239,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 251.46 62.23 0)
+			(at 237.49 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9870,7 +10248,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 62.23 0)
+			(at 237.49 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9879,7 +10257,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 251.46 62.23 0)
+			(at 237.49 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9973,73 +10351,6 @@
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/bc2f1682-e3ae-4ffc-84d8-70ef19ac3f89"
 					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 107.95 67.31 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fa5a64dc-0413-4c35-8471-5c10d5306f68")
-		(property "Reference" "R57"
-			(at 113.284 68.834 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 113.03 66.294 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 107.95 65.532 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 107.95 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 107.95 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "33beb0e7-e03d-4c3d-a3e5-a861e18724d8")
-		)
-		(pin "2"
-			(uuid "2ac25320-8eb9-4a84-bb6e-b3ce70dda39e")
-		)
-		(instances
-			(project "EPS_mppt_board"
-				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/bc2f1682-e3ae-4ffc-84d8-70ef19ac3f89"
-					(reference "R57")
 					(unit 1)
 				)
 			)
