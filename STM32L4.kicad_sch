@@ -4443,6 +4443,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 77.47) (xy 160.02 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2986b1d7-32a2-49d6-b930-6e1a9e8dba97")
+	)
+	(wire
+		(pts
 			(xy 167.64 125.73) (xy 160.02 125.73)
 		)
 		(stroke
@@ -4600,6 +4610,16 @@
 			(type default)
 		)
 		(uuid "4648ad33-752c-47e9-bd85-61afb9f3ddcd")
+	)
+	(wire
+		(pts
+			(xy 160.02 82.55) (xy 166.37 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c635816-62f1-4379-9d98-1992b96a9053")
 	)
 	(wire
 		(pts
@@ -5471,6 +5491,16 @@
 		)
 		(uuid "fca06d91-8f41-40a8-b5e4-814fcf38c536")
 	)
+	(wire
+		(pts
+			(xy 160.02 80.01) (xy 166.37 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdd50910-c855-4058-94b5-358400c76d08")
+	)
 	(label "SWCLK"
 		(at 177.8 97.79 180)
 		(effects
@@ -5771,6 +5801,17 @@
 		)
 		(uuid "f956d01b-0f7c-48ac-a715-a95cf14513bc")
 	)
+	(hierarchical_label "OBC_3V3_SD"
+		(shape output)
+		(at 166.37 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1dba7073-37f3-4046-9042-649acb2e2dff")
+	)
 	(hierarchical_label "I2C1_SDA"
 		(shape input)
 		(at 167.64 128.27 0)
@@ -5825,6 +5866,17 @@
 			(justify left)
 		)
 		(uuid "415afeec-ea97-48dd-81c3-823851ad5cf1")
+	)
+	(hierarchical_label "ADCS_3V3_SD"
+		(shape output)
+		(at 166.37 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "42c14370-f3f7-4e32-947c-146b9c6a8b71")
 	)
 	(hierarchical_label "RESET_TIME"
 		(shape input)
@@ -5924,6 +5976,17 @@
 			(justify right)
 		)
 		(uuid "a7072e1a-cb85-4f69-9b43-cf02b4cc7858")
+	)
+	(hierarchical_label "ADCS_5V_SD"
+		(shape output)
+		(at 166.37 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c1da264a-61e3-4ef7-a191-3a4436309140")
 	)
 	(hierarchical_label "GPIO_EN_5V"
 		(shape output)
