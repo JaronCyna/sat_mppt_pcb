@@ -918,322 +918,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Simulation_SPICE:PMOS"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "PMOS"
-				(at 5.08 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "P-MOSFET transistor, drain/source/gate"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "PMOS"
-				(at 0 -17.145 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Type" "VDMOS"
-				(at 0 -19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=D 2=G 3=S"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET simulation"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PMOS_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "PMOS_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "TPS259470:TPS259470ARPWR"
 			(pin_names
 				(offset 0.254)
@@ -1874,6 +1558,342 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Transistor_FET:Si7141DP"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Si7141DP"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SO:PowerPAK_SO-8_Single"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/65596/si7141dp.pdf"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "-60A Id, -20V Vds, 1.9 mOhm Ron, PowerPAK-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "P-Channel MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "PowerPAK*SO*Single*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Si7141DP_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Si7141DP_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
@@ -2141,6 +2161,27 @@
 		)
 		(uuid "d239ad3c-28b2-4753-98a7-468d3117cd36")
 	)
+	(text_box "Max output 500 mA at 3V3. \nInput ranges in current but will be ~7-20V input with ~50-300mA"
+		(exclude_from_sim no)
+		(at 300.99 209.55 0)
+		(size 106.68 41.91)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 158 218 255 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "6aea4709-8b62-4feb-87d7-fc719febe48b")
+	)
 	(text_box "For under voltage protection on the solar panels"
 		(exclude_from_sim no)
 		(at 77.47 264.16 0)
@@ -2164,7 +2205,7 @@
 	)
 	(text_box "Dual PMOS for reverse current protection into solar panel"
 		(exclude_from_sim no)
-		(at 40.64 68.58 0)
+		(at 43.18 66.04 0)
 		(size 24.13 7.62)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -2205,10 +2246,10 @@
 		(uuid "ddca13b8-b72f-4ab0-b593-158fa748c495")
 	)
 	(junction
-		(at 307.34 144.78)
+		(at 57.15 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "152b8787-4780-4d97-b080-6c0194f7e3c7")
+		(uuid "0f774a67-4a22-4b62-a79d-3df0f558d8c4")
 	)
 	(junction
 		(at 369.57 127)
@@ -2221,6 +2262,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1e559651-543b-474c-bb05-e4e0b5cc3ad8")
+	)
+	(junction
+		(at 41.91 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33b70200-fab5-43b8-a307-287c2527d5d8")
 	)
 	(junction
 		(at 307.34 121.92)
@@ -2287,12 +2334,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "74aa082f-71c4-4784-928e-c5ab9aba27b1")
-	)
-	(junction
-		(at 41.91 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7dd516e3-d93d-4a84-acc4-3dd703dba0fd")
 	)
 	(junction
 		(at 383.54 121.92)
@@ -2383,12 +2424,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dcae32df-75c3-4f09-93dc-41489f251355")
-	)
-	(junction
-		(at 57.15 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dd87ea28-54f7-4e08-8d3e-bb692fe4e323")
 	)
 	(junction
 		(at 356.87 144.78)
@@ -3430,16 +3465,6 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 134.62) (xy 307.34 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2d78fd9-8170-4a30-812d-5d6e940507ed")
-	)
-	(wire
-		(pts
 			(xy 369.57 127) (xy 369.57 132.08)
 		)
 		(stroke
@@ -3770,7 +3795,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0a1829af-1890-48c7-a688-0d1627198d83")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR012"
 			(at 125.73 148.59 0)
 			(effects
 				(font
@@ -3820,7 +3845,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/1cb04f15-5cd4-4c9d-a391-62735eda9253"
-					(reference "#PWR05")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -3836,7 +3861,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c61e68b-5467-4a2f-a702-c4f596fc6f0a")
-		(property "Reference" "#PWR0122"
+		(property "Reference" "#PWR03"
 			(at 250.19 115.57 0)
 			(effects
 				(font
@@ -3886,7 +3911,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/1cb04f15-5cd4-4c9d-a391-62735eda9253"
-					(reference "#PWR0122")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -3901,7 +3926,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "10aa6949-7d81-4ca3-86ee-bedfd548cae1")
-		(property "Reference" "C1"
+		(property "Reference" "C5"
 			(at 144.272 127 0)
 			(effects
 				(font
@@ -3919,7 +3944,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 153.3652 132.08 0)
 			(effects
 				(font
@@ -3955,7 +3980,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "CL32B226KAJNFNE"
+		(property "MANUFACTURER_PART_NUMBER" "06035C104K4T2A"
 			(at 152.4 128.27 0)
 			(effects
 				(font
@@ -3973,7 +3998,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/1cb04f15-5cd4-4c9d-a391-62735eda9253"
-					(reference "C1")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -3988,7 +4013,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1228ac47-9f19-4745-9f50-62e2a075231a")
-		(property "Reference" "#PWR0123"
+		(property "Reference" "#PWR017"
 			(at 181.61 162.56 0)
 			(effects
 				(font
@@ -4038,7 +4063,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/1cb04f15-5cd4-4c9d-a391-62735eda9253"
-					(reference "#PWR0123")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -4054,7 +4079,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "154b2cb9-e1a1-429d-95bc-1ede05c9f242")
-		(property "Reference" "R59"
+		(property "Reference" "R10"
 			(at 41.91 267.9699 0)
 			(effects
 				(font
@@ -4072,7 +4097,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 37.592 269.24 90)
 			(effects
 				(font
@@ -4099,6 +4124,22 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" "Digikey"
+			(at 39.37 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "RN73R1JTTD4993F25"
+			(at 39.37 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "65991e93-0e7f-4183-a42f-839736a28927")
 		)
@@ -4108,105 +4149,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/1cb04f15-5cd4-4c9d-a391-62735eda9253"
-					(reference "R59")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 57.15 88.9 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "225b106a-54aa-4261-99ba-44460e8c1afe")
-		(property "Reference" "Q1"
-			(at 57.15 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PMOS"
-			(at 57.15 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.69 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 44.45 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 57.15 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "PMOS"
-			(at 40.005 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 38.1 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 41.91 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "83969ef7-272d-473c-9415-56d2f2ec5e46")
-		)
-		(pin "3"
-			(uuid "327a2e83-8ad3-45f1-98bd-80574606ed4f")
-		)
-		(pin "2"
-			(uuid "acb52e6c-04f9-4943-9fa3-4216c6baa639")
-		)
-		(instances
-			(project "EPS_mppt_board"
-				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/1cb04f15-5cd4-4c9d-a391-62735eda9253"
-					(reference "Q1")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -4222,7 +4165,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2549c41e-c750-4815-86a9-ea3aa625b218")
-		(property "Reference" "R60"
+		(property "Reference" "R4"
 			(at 168.91 124.4599 0)
 			(effects
 				(font
@@ -4240,7 +4183,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 164.592 125.73 90)
 			(effects
 				(font
@@ -4267,6 +4210,22 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" "Digikey"
+			(at 166.37 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "RN73R1JTTD3483F25"
+			(at 166.37 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "bf21aa02-43cf-47e1-a410-d093ae5e53b5")
 		)
@@ -4276,7 +4235,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/1cb04f15-5cd4-4c9d-a391-62735eda9253"
-					(reference "R60")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -4292,7 +4251,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2688cb5e-a853-4ced-8bc0-e19ea426f7d9")
-		(property "Reference" "R2"
+		(property "Reference" "R5"
 			(at 372.11 134.6199 0)
 			(effects
 				(font
@@ -4310,7 +4269,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 367.792 135.89 90)
 			(effects
 				(font
@@ -4337,6 +4296,22 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" "Digikey"
+			(at 369.57 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "AT0603FRE07100KL"
+			(at 369.57 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "776f56b2-e340-4146-a286-97af6befbe7d")
 		)
@@ -4346,7 +4321,7 @@
 		(instances
 			(project ""
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/1cb04f15-5cd4-4c9d-a391-62735eda9253"
-					(reference "R2")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -4361,7 +4336,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "28ab7012-4a15-4168-a045-c500e5d08cb5")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR021"
 			(at 124.46 246.38 0)
 			(effects
 				(font
@@ -4411,7 +4386,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/1cb04f15-5cd4-4c9d-a391-62735eda9253"
-					(reference "#PWR014")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -4427,7 +4402,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a2a2978-d95d-4e20-85d3-7987d06de404")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR023"
 			(at 39.37 284.48 0)
 			(effects
 				(font
@@ -4477,7 +4452,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/1cb04f15-5cd4-4c9d-a391-62735eda9253"
-					(reference "#PWR015")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -4492,7 +4467,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2f9546d6-111e-4de3-9751-3081b9fe28c3")
-		(property "Reference" "C69"
+		(property "Reference" "C4"
 			(at 302.006 125.73 0)
 			(effects
 				(font
@@ -4510,7 +4485,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 299.4152 130.81 0)
 			(effects
 				(font
@@ -4546,7 +4521,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "CL32B226KAJNFNE"
+		(property "MANUFACTURER_PART_NUMBER" "06035C104K4T2A"
 			(at 298.45 127 0)
 			(effects
 				(font
@@ -4564,7 +4539,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/1cb04f15-5cd4-4c9d-a391-62735eda9253"
-					(reference "C69")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -4580,7 +4555,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3476d48b-0e30-48e6-a48a-5993f29660cd")
-		(property "Reference" "R63"
+		(property "Reference" "R2"
 			(at 252.73 115.5699 0)
 			(effects
 				(font
@@ -4598,7 +4573,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 248.412 116.84 90)
 			(effects
 				(font
@@ -4625,6 +4600,22 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" "Digikey"
+			(at 250.19 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "AT0603FRE07100KL"
+			(at 250.19 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ecb3cd55-e5f6-4063-afeb-f5fa61ff2e36")
 		)
@@ -4634,105 +4625,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/1cb04f15-5cd4-4c9d-a391-62735eda9253"
-					(reference "R63")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 102.87 124.46 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "37e021a7-e713-4137-8607-9e972294acff")
-		(property "Reference" "Q2"
-			(at 102.87 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PMOS"
-			(at 102.87 118.11 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 105.41 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 90.17 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 102.87 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "PMOS"
-			(at 85.725 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 83.82 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 87.63 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "40c08417-e28f-4aef-a6b3-1e9e9db06840")
-		)
-		(pin "3"
-			(uuid "4d2a939f-5b30-4642-bd6e-917e86baf48e")
-		)
-		(pin "2"
-			(uuid "aca4abed-17d6-4d6e-b0f6-74c550920d13")
-		)
-		(instances
-			(project ""
-				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/1cb04f15-5cd4-4c9d-a391-62735eda9253"
-					(reference "Q2")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -4748,7 +4641,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ff6e9b2-476b-4b70-95cf-57d2b8c5c1ce")
-		(property "Reference" "U3"
+		(property "Reference" "U4"
 			(at 105.0133 129.54 0)
 			(effects
 				(font
@@ -4814,7 +4707,7 @@
 		(instances
 			(project ""
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/1cb04f15-5cd4-4c9d-a391-62735eda9253"
-					(reference "U3")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -4829,7 +4722,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4293f872-4b69-4a4b-b503-1fb572756e62")
-		(property "Reference" "C70"
+		(property "Reference" "C11"
 			(at 56.896 236.728 0)
 			(effects
 				(font
@@ -4847,7 +4740,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 54.3052 242.57 0)
 			(effects
 				(font
@@ -4883,7 +4776,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "CL32B226KAJNFNE"
+		(property "MANUFACTURER_PART_NUMBER" "06035C104K4T2A"
 			(at 53.34 238.76 0)
 			(effects
 				(font
@@ -4901,7 +4794,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/1cb04f15-5cd4-4c9d-a391-62735eda9253"
-					(reference "C70")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -4917,7 +4810,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4643960c-df35-4261-8f4f-286622369ed4")
-		(property "Reference" "C3"
+		(property "Reference" "C7"
 			(at 401.32 140.9699 0)
 			(effects
 				(font
@@ -4935,7 +4828,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "zLibrary:CAP_C2220C_2S_KEM-M"
 			(at 398.4752 146.05 0)
 			(effects
 				(font
@@ -4944,7 +4837,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BZ71A226ME15-01.pdf"
+		(property "Datasheet" ""
 			(at 397.51 142.24 0)
 			(effects
 				(font
@@ -4971,7 +4864,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "GRM21BZ71A226ME15L"
+		(property "MANUFACTURER_PART_NUMBER" "C2220C226MMR2L7289"
 			(at 397.51 142.24 0)
 			(effects
 				(font
@@ -4989,7 +4882,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/1cb04f15-5cd4-4c9d-a391-62735eda9253"
-					(reference "C3")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -5005,7 +4898,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47a6edf8-ae1f-4004-b039-286562d3595d")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR013"
 			(at 245.11 151.13 0)
 			(effects
 				(font
@@ -5055,7 +4948,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/1cb04f15-5cd4-4c9d-a391-62735eda9253"
-					(reference "#PWR091")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -5071,7 +4964,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b3e359d-0961-4728-875d-08c0ec64a231")
-		(property "Reference" "U16"
+		(property "Reference" "U2"
 			(at 210.82 111.76 0)
 			(effects
 				(font
@@ -5087,7 +4980,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RPW0010A-MFG"
+		(property "Footprint" "zLibrary:RPW0010A-MFG"
 			(at 191.77 121.92 0)
 			(effects
 				(font
@@ -5149,7 +5042,7 @@
 		(instances
 			(project ""
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/1cb04f15-5cd4-4c9d-a391-62735eda9253"
-					(reference "U16")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -5164,7 +5057,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "55036bc8-c9e9-4224-a505-b33d040615e4")
-		(property "Reference" "C67"
+		(property "Reference" "C3"
 			(at 290.068 125.73 0)
 			(effects
 				(font
@@ -5182,7 +5075,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "zLibrary:CAP_C2220C_2S_KEM-M"
 			(at 287.9852 130.81 0)
 			(effects
 				(font
@@ -5191,7 +5084,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2113/CL32B226KAJNFNE_Spec.pdf"
+		(property "Datasheet" ""
 			(at 287.02 127 0)
 			(effects
 				(font
@@ -5218,7 +5111,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "CL32B226KAJNFNE"
+		(property "MANUFACTURER_PART_NUMBER" "C2220C226MMR2L7289"
 			(at 287.02 127 0)
 			(effects
 				(font
@@ -5236,7 +5129,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/1cb04f15-5cd4-4c9d-a391-62735eda9253"
-					(reference "C67")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -5251,7 +5144,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5f9d967a-4e62-4b87-83f3-a1097d24f128")
-		(property "Reference" "C65"
+		(property "Reference" "C10"
 			(at 194.31 151.892 0)
 			(effects
 				(font
@@ -5269,7 +5162,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 191.4652 156.21 0)
 			(effects
 				(font
@@ -5278,7 +5171,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2113/CL32B226KAJNFNE_Spec.pdf"
+		(property "Datasheet" ""
 			(at 190.5 152.4 0)
 			(effects
 				(font
@@ -5305,7 +5198,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "CL32B226KAJNFNE"
+		(property "MANUFACTURER_PART_NUMBER" "885342206001"
 			(at 190.5 152.4 0)
 			(effects
 				(font
@@ -5323,56 +5216,60 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/1cb04f15-5cd4-4c9d-a391-62735eda9253"
-					(reference "C65")
+					(reference "C10")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 46.99 88.9 90)
+		(lib_id "Transistor_FET:Si7141DP")
+		(at 46.99 88.9 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "61a73837-6e12-4fd6-a2eb-b0eba474ad2f")
-		(property "Reference" "Q11"
-			(at 46.99 80.01 90)
+		(uuid "651262bb-6146-4982-a23c-476678bf5e02")
+		(property "Reference" "Q16"
+			(at 38.862 79.756 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "PMOS"
-			(at 46.99 82.55 90)
+		(property "Value" "SIR5607DP-T1-RE3"
+			(at 38.862 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 44.45 83.82 0)
+		(property "Footprint" "Package_SO:PowerPAK_SO-8_Single"
+			(at 45.085 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 59.69 88.9 0)
+		(property "Datasheet" ""
+			(at 43.18 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
+		(property "Description" "-60A Id, -20V Vds, 1.9 mOhm Ron, PowerPAK-8"
 			(at 46.99 88.9 0)
 			(effects
 				(font
@@ -5381,46 +5278,25 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "PMOS"
-			(at 64.135 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "5"
+			(uuid "7f81ce17-609e-4e90-8496-d9225ecf4232")
 		)
-		(property "Sim.Type" "VDMOS"
-			(at 66.04 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 62.23 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "4"
+			(uuid "188f91f5-f1a5-441b-8e0c-4700c35a70b1")
 		)
 		(pin "1"
-			(uuid "435cb9d7-7660-4db0-a6ae-0b48efbc40b8")
-		)
-		(pin "3"
-			(uuid "746f763f-a489-457b-ab5c-eb7190cd119d")
+			(uuid "b8077f5e-80f5-487a-9dc0-9c893fe9fe56")
 		)
 		(pin "2"
-			(uuid "4ecd6a18-4ab3-4ab2-96a4-45c1ce60fcbf")
+			(uuid "ce349033-f750-463f-b99a-f35f6262546f")
+		)
+		(pin "3"
+			(uuid "acbde8ad-f3c6-47de-b80e-c1a48cce78f7")
 		)
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/1cb04f15-5cd4-4c9d-a391-62735eda9253"
-					(reference "Q11")
+					(reference "Q16")
 					(unit 1)
 				)
 			)
@@ -5436,7 +5312,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69f26dda-d8a9-41f5-ba24-2f3e91f75883")
-		(property "Reference" "#PWR0127"
+		(property "Reference" "#PWR01"
 			(at 25.4 100.33 0)
 			(effects
 				(font
@@ -5486,7 +5362,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/1cb04f15-5cd4-4c9d-a391-62735eda9253"
-					(reference "#PWR0127")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -5593,7 +5469,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70411464-784d-4a70-b789-34ff8680d80b")
-		(property "Reference" "#PWR0128"
+		(property "Reference" "#PWR015"
 			(at 64.77 153.67 0)
 			(effects
 				(font
@@ -5643,7 +5519,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/1cb04f15-5cd4-4c9d-a391-62735eda9253"
-					(reference "#PWR0128")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -5659,7 +5535,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71f0d049-caaf-419d-8b0a-c0dfc42ca682")
-		(property "Reference" "R58"
+		(property "Reference" "R9"
 			(at 41.91 257.8099 0)
 			(effects
 				(font
@@ -5677,7 +5553,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 37.592 259.08 90)
 			(effects
 				(font
@@ -5704,6 +5580,22 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" "Digikey"
+			(at 39.37 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "RN73R1JTTD1653F25"
+			(at 39.37 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f2c6c78d-1fcd-419e-a509-d187b03c85c9")
 		)
@@ -5713,7 +5605,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/1cb04f15-5cd4-4c9d-a391-62735eda9253"
-					(reference "R58")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -5728,7 +5620,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "738f9b99-fe08-4448-9d51-153be7160a3e")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR020"
 			(at 53.34 228.6 0)
 			(effects
 				(font
@@ -5778,7 +5670,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/1cb04f15-5cd4-4c9d-a391-62735eda9253"
-					(reference "#PWR090")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -5793,7 +5685,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "744d1371-5993-41a2-be66-2fce235fcbe3")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR08"
 			(at 152.4 138.43 0)
 			(effects
 				(font
@@ -5843,7 +5735,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/1cb04f15-5cd4-4c9d-a391-62735eda9253"
-					(reference "#PWR04")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -5859,7 +5751,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "762c22f8-41d0-46f1-b6e4-bde18a8bed1c")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR016"
 			(at 96.52 158.75 0)
 			(effects
 				(font
@@ -5909,7 +5801,7 @@
 		(instances
 			(project ""
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/1cb04f15-5cd4-4c9d-a391-62735eda9253"
-					(reference "#PWR06")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -5924,7 +5816,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7a1f30de-7f10-4514-8063-aaa5a7fabca1")
-		(property "Reference" "#PWR0126"
+		(property "Reference" "#PWR010"
 			(at 298.45 138.43 0)
 			(effects
 				(font
@@ -5974,7 +5866,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/1cb04f15-5cd4-4c9d-a391-62735eda9253"
-					(reference "#PWR0126")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -5989,7 +5881,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "80f6b988-68c1-48eb-858a-74cbbf383c08")
-		(property "Reference" "#PWR0120"
+		(property "Reference" "#PWR07"
 			(at 266.7 137.16 0)
 			(effects
 				(font
@@ -6039,7 +5931,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/1cb04f15-5cd4-4c9d-a391-62735eda9253"
-					(reference "#PWR0120")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -6054,7 +5946,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "824f158a-bf4e-475e-a647-c1c577a0edf2")
-		(property "Reference" "#PWR0124"
+		(property "Reference" "#PWR011"
 			(at 173.99 140.97 0)
 			(effects
 				(font
@@ -6104,7 +5996,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/1cb04f15-5cd4-4c9d-a391-62735eda9253"
-					(reference "#PWR0124")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -6119,7 +6011,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "82c714dd-2654-4723-a45f-4491d5d28b6e")
-		(property "Reference" "C71"
+		(property "Reference" "C1"
 			(at 28.956 88.138 0)
 			(effects
 				(font
@@ -6137,7 +6029,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 26.3652 93.98 0)
 			(effects
 				(font
@@ -6173,7 +6065,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "CL32B226KAJNFNE"
+		(property "MANUFACTURER_PART_NUMBER" "06035C104K4T2A"
 			(at 25.4 90.17 0)
 			(effects
 				(font
@@ -6191,7 +6083,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/1cb04f15-5cd4-4c9d-a391-62735eda9253"
-					(reference "C71")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -6207,7 +6099,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88fe6462-955c-49ec-a936-4f34a4d8894c")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 330.2 111.76 0)
 			(effects
 				(font
@@ -6223,7 +6115,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DQC0010A"
+		(property "Footprint" "zLibrary:DQC0010A"
 			(at 330.2 134.62 0)
 			(effects
 				(font
@@ -6288,7 +6180,7 @@
 		(instances
 			(project ""
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/1cb04f15-5cd4-4c9d-a391-62735eda9253"
-					(reference "U2")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -6303,7 +6195,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "90cd8784-c27c-4ca6-adc4-bc12fcc1d044")
-		(property "Reference" "R1"
+		(property "Reference" "R3"
 			(at 62.992 122.428 0)
 			(effects
 				(font
@@ -6319,7 +6211,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 65.532 120.65 90)
 			(effects
 				(font
@@ -6346,6 +6238,22 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" "Digikey"
+			(at 67.31 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "RN73R1JTTD4703F50"
+			(at 67.31 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f86109a0-4d1a-45cb-a691-a399f5578605")
 		)
@@ -6355,7 +6263,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/1cb04f15-5cd4-4c9d-a391-62735eda9253"
-					(reference "R1")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -6370,7 +6278,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "91c2d47d-8256-4c20-a337-806c433a260c")
-		(property "Reference" "R62"
+		(property "Reference" "R6"
 			(at 238.76 140.716 0)
 			(effects
 				(font
@@ -6388,7 +6296,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 243.332 140.97 90)
 			(effects
 				(font
@@ -6415,6 +6323,22 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" "Digikey"
+			(at 245.11 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "RN73R1JTTD4991F100"
+			(at 245.11 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c5e6fdb2-f491-4029-b96e-ae178e153121")
 		)
@@ -6424,7 +6348,86 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/1cb04f15-5cd4-4c9d-a391-62735eda9253"
-					(reference "R62")
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:Si7141DP")
+		(at 57.15 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "941bc98e-0ee4-4126-90ec-4594e77ba964")
+		(property "Reference" "Q15"
+			(at 65.024 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SIR5607DP-T1-RE3"
+			(at 65.024 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:PowerPAK_SO-8_Single"
+			(at 59.055 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-60A Id, -20V Vds, 1.9 mOhm Ron, PowerPAK-8"
+			(at 57.15 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "d2f8558e-8786-4769-8c59-ce60855af726")
+		)
+		(pin "4"
+			(uuid "524c9407-dcfa-4efa-91f7-5faefe942772")
+		)
+		(pin "1"
+			(uuid "2bfa51e8-92fb-48a1-a783-2aa8cde7f028")
+		)
+		(pin "2"
+			(uuid "a482a52b-fc87-4b8e-a4e6-3fbd33a8605b")
+		)
+		(pin "3"
+			(uuid "612edf7c-70bc-479f-acbb-8f6d025fe0c7")
+		)
+		(instances
+			(project ""
+				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/1cb04f15-5cd4-4c9d-a391-62735eda9253"
+					(reference "Q15")
 					(unit 1)
 				)
 			)
@@ -6440,7 +6443,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a0e4050-01cb-4806-bb63-8ccb2db742e6")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR019"
 			(at 342.9 168.91 0)
 			(effects
 				(font
@@ -6490,7 +6493,7 @@
 		(instances
 			(project ""
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/1cb04f15-5cd4-4c9d-a391-62735eda9253"
-					(reference "#PWR07")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -6506,7 +6509,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ec38039-9575-4f8a-9766-ec034eab9a07")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR04"
 			(at 391.16 125.73 0)
 			(effects
 				(font
@@ -6556,7 +6559,7 @@
 		(instances
 			(project ""
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/1cb04f15-5cd4-4c9d-a391-62735eda9253"
-					(reference "#PWR02")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -6654,7 +6657,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a06e6589-cb32-434e-9e72-29b2b6b82271")
-		(property "Reference" "#PWR0125"
+		(property "Reference" "#PWR02"
 			(at 236.22 115.57 0)
 			(effects
 				(font
@@ -6704,7 +6707,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/1cb04f15-5cd4-4c9d-a391-62735eda9253"
-					(reference "#PWR0125")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -6736,7 +6739,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "zLibrary:IND_BOURNS_SRR6038"
 			(at 355.6 121.92 0)
 			(effects
 				(font
@@ -6745,7 +6748,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 355.6 121.92 0)
 			(effects
 				(font
@@ -6761,6 +6764,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "SRR6038-100Y"
+			(at 355.6 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "DigiKey"
+			(at 355.6 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -6787,7 +6806,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "adf2328b-add5-45a8-a03e-6dfefc8f00fc")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR06"
 			(at 73.66 128.27 0)
 			(effects
 				(font
@@ -6837,7 +6856,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/1cb04f15-5cd4-4c9d-a391-62735eda9253"
-					(reference "#PWR03")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -6852,7 +6871,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bdc1c478-55b0-474e-ba66-635e3d0380c3")
-		(property "Reference" "#PWR0121"
+		(property "Reference" "#PWR09"
 			(at 287.02 138.43 0)
 			(effects
 				(font
@@ -6902,7 +6921,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/1cb04f15-5cd4-4c9d-a391-62735eda9253"
-					(reference "#PWR0121")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -6918,7 +6937,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c08c3e44-2c7d-4394-a115-4d88b21b6d8a")
-		(property "Reference" "R64"
+		(property "Reference" "R1"
 			(at 238.76 115.5699 0)
 			(effects
 				(font
@@ -6936,7 +6955,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 234.442 116.84 90)
 			(effects
 				(font
@@ -6963,6 +6982,22 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" "Digikey"
+			(at 236.22 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "AT0603FRE07100KL"
+			(at 236.22 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "23152cf2-9460-4590-af45-f55a29b871bc")
 		)
@@ -6972,7 +7007,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/1cb04f15-5cd4-4c9d-a391-62735eda9253"
-					(reference "R64")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -6987,7 +7022,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c0a0957e-7b21-4950-b2a0-0164cf119833")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR022"
 			(at 124.46 254 0)
 			(effects
 				(font
@@ -7037,7 +7072,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/1cb04f15-5cd4-4c9d-a391-62735eda9253"
-					(reference "#PWR013")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -7052,7 +7087,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c10c6805-1be0-4c6f-9daf-813de6e0edb5")
-		(property "Reference" "R3"
+		(property "Reference" "R7"
 			(at 116.84 148.082 90)
 			(effects
 				(font
@@ -7068,7 +7103,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 116.84 146.558 90)
 			(effects
 				(font
@@ -7095,6 +7130,22 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" "Digikey"
+			(at 118.618 144.272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "RN73R1JTTD4703F50"
+			(at 116.84 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8a6d5ba7-8422-4619-b977-e4347ab12270")
 		)
@@ -7104,7 +7155,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/1cb04f15-5cd4-4c9d-a391-62735eda9253"
-					(reference "R3")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -7120,7 +7171,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cdd2f2c4-62ac-415c-9f9e-d258d73def75")
-		(property "Reference" "C2"
+		(property "Reference" "C6"
 			(at 387.35 140.9699 0)
 			(effects
 				(font
@@ -7138,7 +7189,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "zLibrary:CAP_C2220C_2S_KEM-M"
 			(at 384.5052 146.05 0)
 			(effects
 				(font
@@ -7147,7 +7198,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BZ71A226ME15-01.pdf"
+		(property "Datasheet" ""
 			(at 383.54 142.24 0)
 			(effects
 				(font
@@ -7174,7 +7225,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "GRM21BZ71A226ME15L"
+		(property "MANUFACTURER_PART_NUMBER" "C2220C226MMR2L7289"
 			(at 383.54 142.24 0)
 			(effects
 				(font
@@ -7192,7 +7243,7 @@
 		(instances
 			(project ""
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/1cb04f15-5cd4-4c9d-a391-62735eda9253"
-					(reference "C2")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -7207,7 +7258,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cf608ea7-f7f2-482f-bc25-fd05ea4c09ad")
-		(property "Reference" "C72"
+		(property "Reference" "C8"
 			(at 68.326 141.478 0)
 			(effects
 				(font
@@ -7225,7 +7276,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 65.7352 147.32 0)
 			(effects
 				(font
@@ -7261,7 +7312,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "CL32B226KAJNFNE"
+		(property "MANUFACTURER_PART_NUMBER" "06035C104K4T2A"
 			(at 64.77 143.51 0)
 			(effects
 				(font
@@ -7279,7 +7330,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/1cb04f15-5cd4-4c9d-a391-62735eda9253"
-					(reference "C72")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -7295,7 +7346,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d309c591-06fd-4b95-90c0-6aba16462f0e")
-		(property "Reference" "R5"
+		(property "Reference" "R8"
 			(at 41.91 247.6499 0)
 			(effects
 				(font
@@ -7313,7 +7364,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 37.592 248.92 90)
 			(effects
 				(font
@@ -7340,6 +7391,22 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" "Digikey"
+			(at 39.37 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "RN73R1JTTD6653F25"
+			(at 39.37 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "10d2df7d-9073-458d-9226-45cc07a5b9f6")
 		)
@@ -7349,7 +7416,72 @@
 		(instances
 			(project ""
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/1cb04f15-5cd4-4c9d-a391-62735eda9253"
-					(reference "R5")
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 307.34 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d9418cdb-1d39-4c10-891f-be2564803755")
+		(property "Reference" "#PWR0165"
+			(at 307.34 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 307.34 131.064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 307.34 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 307.34 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 307.34 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec70d014-65c2-4165-827f-b7761219ed84")
+		)
+		(instances
+			(project "EPS_mppt_board"
+				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/1cb04f15-5cd4-4c9d-a391-62735eda9253"
+					(reference "#PWR0165")
 					(unit 1)
 				)
 			)
@@ -7365,7 +7497,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e005f06b-43b2-48e5-9f24-df8fdb1d6f2d")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR014"
 			(at 236.22 152.4 0)
 			(effects
 				(font
@@ -7415,7 +7547,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/1cb04f15-5cd4-4c9d-a391-62735eda9253"
-					(reference "#PWR016")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -7431,7 +7563,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eca12a30-4e49-4e71-97b8-1209133293d9")
-		(property "Reference" "C66"
+		(property "Reference" "C2"
 			(at 270.51 125.7299 0)
 			(effects
 				(font
@@ -7449,7 +7581,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 267.6652 130.81 0)
 			(effects
 				(font
@@ -7485,7 +7617,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "CL32B226KAJNFNE"
+		(property "MANUFACTURER_PART_NUMBER" "CL10B105KQ8NNNC"
 			(at 266.7 127 0)
 			(effects
 				(font
@@ -7503,7 +7635,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/1cb04f15-5cd4-4c9d-a391-62735eda9253"
-					(reference "C66")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -7518,7 +7650,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f236c98f-286b-4cb0-a60c-3ac2d3d9bb7b")
-		(property "Reference" "C68"
+		(property "Reference" "C9"
 			(at 172.974 152.146 0)
 			(effects
 				(font
@@ -7536,7 +7668,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 182.5752 156.21 0)
 			(effects
 				(font
@@ -7545,7 +7677,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2113/CL32B226KAJNFNE_Spec.pdf"
+		(property "Datasheet" ""
 			(at 181.61 152.4 0)
 			(effects
 				(font
@@ -7572,7 +7704,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "CL32B226KAJNFNE"
+		(property "MANUFACTURER_PART_NUMBER" "GCM1885C1H222FA16D"
 			(at 181.61 152.4 0)
 			(effects
 				(font
@@ -7590,7 +7722,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/1cb04f15-5cd4-4c9d-a391-62735eda9253"
-					(reference "C68")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -7606,7 +7738,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f38629b8-d0d2-4e7d-9dab-515d875a85ec")
-		(property "Reference" "C5"
+		(property "Reference" "C12"
 			(at 30.48 260.3499 0)
 			(effects
 				(font
@@ -7624,7 +7756,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 27.6352 265.43 0)
 			(effects
 				(font
@@ -7633,7 +7765,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2113/CL32B226KAJNFNE_Spec.pdf"
+		(property "Datasheet" ""
 			(at 26.67 261.62 0)
 			(effects
 				(font
@@ -7660,7 +7792,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "CL32B226KAJNFNE"
+		(property "MANUFACTURER_PART_NUMBER" "C0603W102KDRACAUTO"
 			(at 26.67 261.62 0)
 			(effects
 				(font
@@ -7678,7 +7810,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/1cb04f15-5cd4-4c9d-a391-62735eda9253"
-					(reference "C5")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -7694,7 +7826,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd0bc048-c52b-47ed-9eb0-9e3c4594b6b8")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR05"
 			(at 57.15 129.54 0)
 			(effects
 				(font
@@ -7744,7 +7876,87 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/1cb04f15-5cd4-4c9d-a391-62735eda9253"
-					(reference "#PWR01")
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:Si7141DP")
+		(at 102.87 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe4ef250-3738-499a-afe5-15cfb03e6631")
+		(property "Reference" "Q17"
+			(at 102.87 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SIR5607DP-T1-RE3"
+			(at 102.87 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:PowerPAK_SO-8_Single"
+			(at 104.775 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-60A Id, -20V Vds, 1.9 mOhm Ron, PowerPAK-8"
+			(at 102.87 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "34a49d07-6001-4c52-86cd-af02b5df9b52")
+		)
+		(pin "4"
+			(uuid "05b941a4-ae5d-4990-9bd8-79a83227f715")
+		)
+		(pin "1"
+			(uuid "64bb0e9c-45ea-45d1-9a2b-61f4c78227ae")
+		)
+		(pin "2"
+			(uuid "2a248280-ceb9-467d-8c15-0b30bcf1ab8c")
+		)
+		(pin "3"
+			(uuid "f9f898d1-5226-4903-af70-f8539b085c30")
+		)
+		(instances
+			(project "EPS_mppt_board"
+				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/1cb04f15-5cd4-4c9d-a391-62735eda9253"
+					(reference "Q17")
 					(unit 1)
 				)
 			)
@@ -7759,7 +7971,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ff9947eb-7108-460a-ae4a-bec42890e4f5")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR018"
 			(at 190.5 162.56 0)
 			(effects
 				(font
@@ -7809,7 +8021,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/1cb04f15-5cd4-4c9d-a391-62735eda9253"
-					(reference "#PWR017")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
