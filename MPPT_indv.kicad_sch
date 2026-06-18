@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "675ff4e8-6946-49cc-bd11-ae258dce20e3")
+	(uuid "3b66076a-8a94-4cb8-bbfc-8a90769b0241")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C"
@@ -1731,6 +1731,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Maximum Power Point Tracker and Battery Charger"
+		(exclude_from_sim no)
+		(at 113.284 18.288 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "d4ae4c05-7f56-4d83-8397-272a8b8134ad")
+	)
 	(text_box "The NTC Pin Will likely be on the Battery Board for measuring battery Temp"
 		(exclude_from_sim no)
 		(at 259.08 63.5 0)
@@ -1817,8 +1827,8 @@
 	)
 	(text_box "Some GND notes:\nPGND (Pins 23,24): Power ground pins. These pins should\nbe connected to a copper pour that forms the return for\nthe V OUT bypass capacitor on the top layer of the printed\ncircuit board.\n\nAGND (Exposed PAD, Pin 29): Analog ground pin. This\nis the ground pin used to return all of the analog circuitry\ninside the LTC4162 and should be connected to an analog\nground pour that is common with PGND (pins 23 and 24).\nIt should also be connected to a ground plane on layer 2\nof the PCB to which all of the analog components return\nsuch as the R T resistor and the INTVCC and VCC2P5 by-\npass capacitors."
 		(exclude_from_sim no)
-		(at 219.71 116.84 0)
-		(size 60.96 31.75)
+		(at 115.57 165.1 0)
+		(size 60.96 33.02)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
