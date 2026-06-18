@@ -1344,7 +1344,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4799fb17-888d-47f8-a603-7571c86c2254")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR027"
 			(at 93.98 102.87 0)
 			(effects
 				(font
@@ -1394,7 +1394,7 @@
 		(instances
 			(project ""
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/61eb8b07-a516-4600-8bd8-c85438ae98cc"
-					(reference "#PWR026")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -1583,7 +1583,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85d1121e-20fc-4a1a-8afb-d9387e3d3265")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR025"
 			(at 107.95 90.17 0)
 			(effects
 				(font
@@ -1633,7 +1633,7 @@
 		(instances
 			(project ""
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/61eb8b07-a516-4600-8bd8-c85438ae98cc"
-					(reference "#PWR024")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -1649,7 +1649,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b5a3661-58d4-439e-a7ab-c3830dd67fda")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR028"
 			(at 104.14 105.41 0)
 			(effects
 				(font
@@ -1700,7 +1700,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/61eb8b07-a516-4600-8bd8-c85438ae98cc"
-					(reference "#PWR027")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -1864,7 +1864,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2cfdb6a-655c-4214-a5cb-d47f7219b8f8")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR026"
 			(at 180.34 91.44 0)
 			(effects
 				(font
@@ -1915,7 +1915,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/61eb8b07-a516-4600-8bd8-c85438ae98cc"
-					(reference "#PWR025")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -1930,7 +1930,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f966cfda-9626-47db-a7a7-4ca4b2c4679b")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR029"
 			(at 110.49 120.65 0)
 			(effects
 				(font
@@ -1980,7 +1980,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/61eb8b07-a516-4600-8bd8-c85438ae98cc"
-					(reference "#PWR028")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)

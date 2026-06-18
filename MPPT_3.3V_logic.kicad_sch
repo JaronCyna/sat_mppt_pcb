@@ -3795,7 +3795,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0a1829af-1890-48c7-a688-0d1627198d83")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR013"
 			(at 125.73 148.59 0)
 			(effects
 				(font
@@ -3845,7 +3845,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/1cb04f15-5cd4-4c9d-a391-62735eda9253"
-					(reference "#PWR012")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -4013,7 +4013,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1228ac47-9f19-4745-9f50-62e2a075231a")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR018"
 			(at 181.61 162.56 0)
 			(effects
 				(font
@@ -4063,7 +4063,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/1cb04f15-5cd4-4c9d-a391-62735eda9253"
-					(reference "#PWR017")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -4130,6 +4130,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" "RN73R1JTTD4993F25"
@@ -4138,6 +4139,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -4216,6 +4218,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" "RN73R1JTTD3483F25"
@@ -4224,6 +4227,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -4302,6 +4306,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" "AT0603FRE07100KL"
@@ -4310,6 +4315,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -4336,7 +4342,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "28ab7012-4a15-4168-a045-c500e5d08cb5")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR022"
 			(at 124.46 246.38 0)
 			(effects
 				(font
@@ -4386,7 +4392,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/1cb04f15-5cd4-4c9d-a391-62735eda9253"
-					(reference "#PWR021")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -4402,7 +4408,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a2a2978-d95d-4e20-85d3-7987d06de404")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR024"
 			(at 39.37 284.48 0)
 			(effects
 				(font
@@ -4452,7 +4458,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/1cb04f15-5cd4-4c9d-a391-62735eda9253"
-					(reference "#PWR023")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -4606,6 +4612,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" "AT0603FRE07100KL"
@@ -4614,6 +4621,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -4898,7 +4906,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47a6edf8-ae1f-4004-b039-286562d3595d")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR014"
 			(at 245.11 151.13 0)
 			(effects
 				(font
@@ -4948,7 +4956,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/1cb04f15-5cd4-4c9d-a391-62735eda9253"
-					(reference "#PWR013")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -5232,7 +5240,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "651262bb-6146-4982-a23c-476678bf5e02")
-		(property "Reference" "Q16"
+		(property "Reference" "Q1"
 			(at 38.862 79.756 90)
 			(effects
 				(font
@@ -5296,7 +5304,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/1cb04f15-5cd4-4c9d-a391-62735eda9253"
-					(reference "Q16")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -5469,7 +5477,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70411464-784d-4a70-b789-34ff8680d80b")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR016"
 			(at 64.77 153.67 0)
 			(effects
 				(font
@@ -5519,7 +5527,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/1cb04f15-5cd4-4c9d-a391-62735eda9253"
-					(reference "#PWR015")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -5586,6 +5594,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" "RN73R1JTTD1653F25"
@@ -5594,6 +5603,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -5620,7 +5630,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "738f9b99-fe08-4448-9d51-153be7160a3e")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR021"
 			(at 53.34 228.6 0)
 			(effects
 				(font
@@ -5670,7 +5680,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/1cb04f15-5cd4-4c9d-a391-62735eda9253"
-					(reference "#PWR020")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -5751,7 +5761,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "762c22f8-41d0-46f1-b6e4-bde18a8bed1c")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR017"
 			(at 96.52 158.75 0)
 			(effects
 				(font
@@ -5801,7 +5811,7 @@
 		(instances
 			(project ""
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/1cb04f15-5cd4-4c9d-a391-62735eda9253"
-					(reference "#PWR016")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -6244,6 +6254,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" "RN73R1JTTD4703F50"
@@ -6252,6 +6263,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -6329,6 +6341,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" "RN73R1JTTD4991F100"
@@ -6337,6 +6350,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -6363,7 +6377,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "941bc98e-0ee4-4126-90ec-4594e77ba964")
-		(property "Reference" "Q15"
+		(property "Reference" "Q2"
 			(at 65.024 80.01 90)
 			(effects
 				(font
@@ -6427,7 +6441,7 @@
 		(instances
 			(project ""
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/1cb04f15-5cd4-4c9d-a391-62735eda9253"
-					(reference "Q15")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -6443,7 +6457,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a0e4050-01cb-4806-bb63-8ccb2db742e6")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR020"
 			(at 342.9 168.91 0)
 			(effects
 				(font
@@ -6493,7 +6507,7 @@
 		(instances
 			(project ""
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/1cb04f15-5cd4-4c9d-a391-62735eda9253"
-					(reference "#PWR019")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -6772,6 +6786,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "MANUFACTURER" "DigiKey"
@@ -6780,6 +6795,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6988,6 +7004,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" "AT0603FRE07100KL"
@@ -6996,6 +7013,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -7022,7 +7040,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c0a0957e-7b21-4950-b2a0-0164cf119833")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR023"
 			(at 124.46 254 0)
 			(effects
 				(font
@@ -7072,7 +7090,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/1cb04f15-5cd4-4c9d-a391-62735eda9253"
-					(reference "#PWR022")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -7136,6 +7154,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" "RN73R1JTTD4703F50"
@@ -7144,6 +7163,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -7397,6 +7417,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" "RN73R1JTTD6653F25"
@@ -7405,6 +7426,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -7431,7 +7453,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d9418cdb-1d39-4c10-891f-be2564803755")
-		(property "Reference" "#PWR0165"
+		(property "Reference" "#PWR012"
 			(at 307.34 138.43 0)
 			(effects
 				(font
@@ -7481,7 +7503,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/1cb04f15-5cd4-4c9d-a391-62735eda9253"
-					(reference "#PWR0165")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -7497,7 +7519,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e005f06b-43b2-48e5-9f24-df8fdb1d6f2d")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR015"
 			(at 236.22 152.4 0)
 			(effects
 				(font
@@ -7547,7 +7569,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/1cb04f15-5cd4-4c9d-a391-62735eda9253"
-					(reference "#PWR014")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -7892,7 +7914,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe4ef250-3738-499a-afe5-15cfb03e6631")
-		(property "Reference" "Q17"
+		(property "Reference" "Q3"
 			(at 102.87 115.57 90)
 			(effects
 				(font
@@ -7956,7 +7978,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/1cb04f15-5cd4-4c9d-a391-62735eda9253"
-					(reference "Q17")
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -7971,7 +7993,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ff9947eb-7108-460a-ae4a-bec42890e4f5")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR019"
 			(at 190.5 162.56 0)
 			(effects
 				(font
@@ -8021,7 +8043,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/1cb04f15-5cd4-4c9d-a391-62735eda9253"
-					(reference "#PWR018")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)

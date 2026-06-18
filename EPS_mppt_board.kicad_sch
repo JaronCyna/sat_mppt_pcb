@@ -670,6 +670,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 158.75) (xy 334.01 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69fee59b-b03f-48ae-b163-ecddf356c22b")
+	)
+	(wire
+		(pts
 			(xy 370.84 209.55) (xy 388.62 209.55)
 		)
 		(stroke
@@ -2183,7 +2193,7 @@
 			)
 		)
 		(pin "CAN_H" input
-			(at 179.07 156.21 180)
+			(at 179.07 167.64 180)
 			(uuid "487bf878-d685-4874-91a4-b4555bb535d8")
 			(effects
 				(font
@@ -2203,7 +2213,7 @@
 			)
 		)
 		(pin "CAN_L" input
-			(at 179.07 158.75 180)
+			(at 179.07 170.18 180)
 			(uuid "ed85372f-90bb-442d-9131-9244e598ff53")
 			(effects
 				(font
@@ -2312,16 +2322,6 @@
 				(justify left)
 			)
 		)
-		(pin "I2C_Mult_RESET" input
-			(at 227.33 143.51 0)
-			(uuid "38e4fb84-5c15-4d41-a895-152ebc0e5492")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "ADCS_3V3_SD" output
 			(at 227.33 102.87 0)
 			(uuid "d0c9a64c-4ec9-4820-9c67-603f1b3f3944")
@@ -2375,6 +2375,46 @@
 		(pin "CRIT_IN" input
 			(at 218.44 175.26 270)
 			(uuid "b17534e2-0a0b-4996-a647-1ce608a3ba0f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C_MUX_RESET" input
+			(at 227.33 143.51 0)
+			(uuid "ef62a667-3102-4a7f-b6ce-fd97387541f6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MPPT_SYNC" output
+			(at 227.33 158.75 0)
+			(uuid "dcf67738-dcd5-4303-a622-6d876619042b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN_H2" input
+			(at 179.07 158.75 180)
+			(uuid "6b034e29-c677-4edd-ab88-45d9f44bed94")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN_L2" input
+			(at 179.07 161.29 180)
+			(uuid "4413e6b1-2a0f-4ce4-a461-95168f97d24d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2632,6 +2672,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "MPPT_SYNC_1.5MHz" input
+			(at 334.01 158.75 180)
+			(uuid "e9c36b39-33cd-4820-93ac-378d89474a8f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

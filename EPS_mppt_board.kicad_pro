@@ -727,6 +727,22 @@
     [
       "154a146f-e13c-49ce-9bd5-d811e5485ce9",
       "PC104"
+    ],
+    [
+      "c7f776cb-a98d-49f7-8744-ce021524fca3",
+      "+X_MPPT"
+    ],
+    [
+      "9d2ec6fa-e0cf-41a7-b6e6-7e244f659a6d",
+      "+Y_MPPT"
+    ],
+    [
+      "9c376570-7347-417d-82da-8820fe005a82",
+      "-X_MPPT"
+    ],
+    [
+      "d3c38251-8867-43ee-adbe-0016c6c48bd2",
+      "-Y_MPPT"
     ]
   ],
   "text_variables": {}
