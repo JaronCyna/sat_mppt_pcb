@@ -290,10 +290,10 @@
 	)
 	(text "Shared Cap Between DC-DC Converters"
 		(exclude_from_sim no)
-		(at 132.842 300.482 0)
+		(at 135.89 299.212 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.524 1.524)
 			)
 		)
 		(uuid "38aa91a1-21a5-4885-97e8-4f7f6602cf62")
