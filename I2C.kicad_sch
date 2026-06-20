@@ -1070,12 +1070,6 @@
 		(uuid "08baeac0-6784-47ec-b3aa-e6b1844cf81f")
 	)
 	(junction
-		(at 229.87 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0ee215b9-b13c-436e-9c5e-b6c36fa0f45e")
-	)
-	(junction
 		(at 220.98 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1230,12 +1224,12 @@
 		(uuid "d6ec7c54-fe9b-4644-8d96-89c452cb41d2")
 	)
 	(no_connect
-		(at 143.681 106.68)
+		(at 143.51 106.68)
 		(uuid "db021c40-b8de-4da2-841e-62adbc7ca81c")
 	)
 	(wire
 		(pts
-			(xy 139.871 106.68) (xy 143.681 106.68)
+			(xy 139.7 106.68) (xy 143.51 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1412,16 +1406,6 @@
 			(type default)
 		)
 		(uuid "59bc86d6-6807-4724-b760-2de2da8272b5")
-	)
-	(wire
-		(pts
-			(xy 229.87 62.23) (xy 233.68 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c65f16a-11ef-4ab9-86b5-1d58bf33dae1")
 	)
 	(wire
 		(pts
@@ -1974,7 +1958,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1dae1c07-944b-4b70-aa1a-18e178e3c3df")
-		(property "Reference" "R26"
+		(property "Reference" "R36"
 			(at 208.28 64.7699 0)
 			(effects
 				(font
@@ -2045,7 +2029,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/0b35a7b5-b504-4fbf-9bb2-d6dcd13c2d56"
-					(reference "R26")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -2061,7 +2045,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3711d412-b011-47f9-9b41-611223cf02c8")
-		(property "Reference" "C28"
+		(property "Reference" "C31"
 			(at 110.49 54.6099 0)
 			(effects
 				(font
@@ -2133,7 +2117,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/0b35a7b5-b504-4fbf-9bb2-d6dcd13c2d56"
-					(reference "C28")
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -2149,7 +2133,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ce7b3c3-3d9e-4230-bac0-70f24615bf2a")
-		(property "Reference" "C27"
+		(property "Reference" "C30"
 			(at 97.79 54.6099 0)
 			(effects
 				(font
@@ -2221,7 +2205,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/0b35a7b5-b504-4fbf-9bb2-d6dcd13c2d56"
-					(reference "C27")
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -2237,7 +2221,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85d8fd70-b6c0-42cf-bbd6-6d5b703dce22")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR064"
 			(at 123.19 123.19 0)
 			(effects
 				(font
@@ -2287,7 +2271,7 @@
 		(instances
 			(project ""
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/0b35a7b5-b504-4fbf-9bb2-d6dcd13c2d56"
-					(reference "#PWR057")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -2303,7 +2287,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88621060-9f26-441e-96f1-0a506d08b213")
-		(property "Reference" "R22"
+		(property "Reference" "R32"
 			(at 161.29 64.7699 0)
 			(effects
 				(font
@@ -2375,7 +2359,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/0b35a7b5-b504-4fbf-9bb2-d6dcd13c2d56"
-					(reference "R22")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -2391,7 +2375,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a66de35-0c18-4b13-9346-e1f678a02d48")
-		(property "Reference" "R23"
+		(property "Reference" "R33"
 			(at 175.26 64.7699 0)
 			(effects
 				(font
@@ -2463,7 +2447,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/0b35a7b5-b504-4fbf-9bb2-d6dcd13c2d56"
-					(reference "R23")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -2479,7 +2463,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "95c3c337-ae44-4115-8fc6-a01b51fd237a")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR063"
 			(at 106.68 66.04 0)
 			(effects
 				(font
@@ -2529,7 +2513,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/0b35a7b5-b504-4fbf-9bb2-d6dcd13c2d56"
-					(reference "#PWR056")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -2545,7 +2529,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a14c35a5-49bf-476e-a4bc-e26fda190ad4")
-		(property "Reference" "R21"
+		(property "Reference" "R31"
 			(at 152.4 64.7699 0)
 			(effects
 				(font
@@ -2617,7 +2601,7 @@
 		(instances
 			(project ""
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/0b35a7b5-b504-4fbf-9bb2-d6dcd13c2d56"
-					(reference "R21")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -2633,7 +2617,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a58135be-e52b-42b5-af3b-25665ea5c8a0")
-		(property "Reference" "R24"
+		(property "Reference" "R34"
 			(at 184.15 64.7699 0)
 			(effects
 				(font
@@ -2705,7 +2689,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/0b35a7b5-b504-4fbf-9bb2-d6dcd13c2d56"
-					(reference "R24")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -2720,7 +2704,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aab48d21-3f88-4187-91ff-33f58c38a1c5")
-		(property "Reference" "U10"
+		(property "Reference" "U9"
 			(at 122.174 62.992 0)
 			(effects
 				(font
@@ -2843,7 +2827,7 @@
 		(instances
 			(project ""
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/0b35a7b5-b504-4fbf-9bb2-d6dcd13c2d56"
-					(reference "U10")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -2859,7 +2843,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0b57006-a062-4d57-9c98-50822759d082")
-		(property "Reference" "R27"
+		(property "Reference" "R37"
 			(at 223.52 64.7699 0)
 			(effects
 				(font
@@ -2931,7 +2915,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/0b35a7b5-b504-4fbf-9bb2-d6dcd13c2d56"
-					(reference "R27")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -2947,7 +2931,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b888fc14-0f8f-4151-91cd-24671157cca3")
-		(property "Reference" "R28"
+		(property "Reference" "R38"
 			(at 232.41 64.7699 0)
 			(effects
 				(font
@@ -3019,7 +3003,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/0b35a7b5-b504-4fbf-9bb2-d6dcd13c2d56"
-					(reference "R28")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -3035,7 +3019,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed6bc41d-4a75-49b0-85f0-77aa95477525")
-		(property "Reference" "C29"
+		(property "Reference" "C32"
 			(at 123.19 54.6099 0)
 			(effects
 				(font
@@ -3107,7 +3091,7 @@
 		(instances
 			(project ""
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/0b35a7b5-b504-4fbf-9bb2-d6dcd13c2d56"
-					(reference "C29")
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -3123,7 +3107,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed9f4b9c-857a-4932-a56f-1b9e2671b516")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR065"
 			(at 129.54 53.34 0)
 			(effects
 				(font
@@ -3173,7 +3157,7 @@
 		(instances
 			(project ""
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/0b35a7b5-b504-4fbf-9bb2-d6dcd13c2d56"
-					(reference "#PWR055")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -3189,7 +3173,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef6d6017-b010-4b80-bedd-b9b48e380a6b")
-		(property "Reference" "R25"
+		(property "Reference" "R35"
 			(at 199.39 64.7699 0)
 			(effects
 				(font
@@ -3261,7 +3245,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/0b35a7b5-b504-4fbf-9bb2-d6dcd13c2d56"
-					(reference "R25")
+					(reference "R35")
 					(unit 1)
 				)
 			)
