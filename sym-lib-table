@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "MPPT_Parts")(type "KiCad")(uri "${KIPRJMOD}/MPPT_Parts.kicad_sym")(options "")(descr ""))
   (lib (name "Project_Connectors")(type "KiCad")(uri "${KIPRJMOD}/Project_Connectors.kicad_sym")(options "")(descr ""))
+  (lib (name "MPPTLIB")(type "KiCad")(uri "${KIPRJMOD}/MPPTLIB.kicad_sym")(options "")(descr ""))
 )

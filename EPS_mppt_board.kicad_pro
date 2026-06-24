@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 3.18,
+          "height": 6.35,
+          "width": 6.35
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -505,7 +505,19 @@
     "meta": {
       "version": 4
     },
-    "net_colors": null,
+    "net_colors": {
+      "+3.3V": "rgb(255, 253, 60)",
+      "/I2C Mux/I2C_Reset": "rgb(255, 85, 252)",
+      "/I2C Mux/SCL_+X": "rgb(255, 85, 252)",
+      "/I2C Mux/SCL_+Y": "rgb(255, 85, 252)",
+      "/I2C Mux/SCL_-X": "rgb(255, 85, 252)",
+      "/I2C Mux/SCL_-Y": "rgb(255, 85, 252)",
+      "/I2C Mux/SDA_+X": "rgb(255, 85, 252)",
+      "/I2C Mux/SDA_+Y": "rgb(255, 85, 252)",
+      "/I2C Mux/SDA_-X": "rgb(255, 85, 252)",
+      "/I2C Mux/SDA_-Y": "rgb(255, 85, 252)",
+      "GND": "rgb(25, 255, 139)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": []
   },
@@ -756,6 +768,18 @@
     [
       "d3c38251-8867-43ee-adbe-0016c6c48bd2",
       "-Y_MPPT"
+    ],
+    [
+      "444ce236-5576-47dd-b6c0-7cd96d8d539e",
+      "LTC4353 +-Y"
+    ],
+    [
+      "e2a18920-d738-481d-8c7e-be35b80885e8",
+      "OR-ing Charger"
+    ],
+    [
+      "76f5383d-56bb-4777-b689-0281d6ba5182",
+      "LTC4353 +-X"
     ]
   ],
   "text_variables": {}
