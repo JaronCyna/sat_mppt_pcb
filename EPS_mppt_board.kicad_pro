@@ -249,12 +249,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "pin_to_pin|3187700|1612900|78554189-37d1-41fc-bb84-6c274f4cfb06|0d3f9936-4de8-405e-831b-4524d52bd358|/8f246f89-1ec7-4136-9977-839b50e116ed/1cb04f15-5cd4-4c9d-a391-62735eda9253|/8f246f89-1ec7-4136-9977-839b50e116ed/1cb04f15-5cd4-4c9d-a391-62735eda9253|/8f246f89-1ec7-4136-9977-839b50e116ed/1cb04f15-5cd4-4c9d-a391-62735eda9253",
-        ""
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -768,18 +763,6 @@
     [
       "d3c38251-8867-43ee-adbe-0016c6c48bd2",
       "-Y_MPPT"
-    ],
-    [
-      "444ce236-5576-47dd-b6c0-7cd96d8d539e",
-      "LTC4353 +-Y"
-    ],
-    [
-      "e2a18920-d738-481d-8c7e-be35b80885e8",
-      "OR-ing Charger"
-    ],
-    [
-      "76f5383d-56bb-4777-b689-0281d6ba5182",
-      "LTC4353 +-X"
     ]
   ],
   "text_variables": {}

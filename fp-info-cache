@@ -1,4 +1,4 @@
-24767634922485231
+24778330230354277
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2701,6 +2701,27 @@ Gauge Massstab 100mm SilkScreenTop Type 2
 0
 0
 0
+Cap-Jlead
+CAP_C1210C_X7R_2S_FW_KEM
+
+C1210C106M5R2C7186 
+0
+2
+2
+Cap-Jlead
+CAP_C1210C_X7R_2S_FW_KEM-L
+
+C1210C106M5R2C7186 
+0
+2
+2
+Cap-Jlead
+CAP_C1210C_X7R_2S_FW_KEM-M
+
+C1210C106M5R2C7186 
+0
+2
+2
 Capacitor_SMD
 CP_Elec_3x5.3
 SMT capacitor, aluminium electrolytic, 3x5.3, Cornell Dubilier Electronics 
@@ -99596,6 +99617,13 @@ HARWIN_M80-5400642
 6
 6
 zLibrary
+IFX-PG-TSDSON-8-44-V
+Original name IFX-PG-TSDSON-8-44-V{return}{return}Max Component Height -1.1mm
+
+0
+8
+8
+zLibrary
 IND_BOURNS_SRR6038
 
 SRR6038-100Y 
@@ -99631,9 +99659,23 @@ TPS259470ARPWR
 10
 10
 zLibrary
+SAMTEC_ESQ-126-39-G-D
+
+
+0
+52
+52
+zLibrary
 SAMTEC_ESQT-126-X-X-Q-X
 
 
 0
 104
 104
+zLibrary
+XAL6060472MEC
+XAL6060-472MEC-4
+Inductor
+0
+2
+2
