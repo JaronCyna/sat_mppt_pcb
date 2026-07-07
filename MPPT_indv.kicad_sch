@@ -2997,7 +2997,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 99.06) (xy 110.49 99.06)
+			(xy 105.41 99.06) (xy 110.49 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3165,16 +3165,6 @@
 		)
 		(uuid "45f779ee-2d22-4d5f-9146-70363cb5e44b")
 	)
-	(label "VOUT_+X"
-		(at 203.2 78.74 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "64f099e1-121a-42c8-bd8f-6f3a84704b69")
-	)
 	(label "VCC2P5_+X"
 		(at 173.99 73.66 180)
 		(effects
@@ -3194,16 +3184,6 @@
 			(justify right bottom)
 		)
 		(uuid "c312006b-760a-4fba-a65e-277aac22e27f")
-	)
-	(label "VOUT_+X"
-		(at 100.33 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "db9ab47f-14a7-496b-96ba-4dad366557fd")
 	)
 	(hierarchical_label "SDA"
 		(shape input)
@@ -3226,6 +3206,17 @@
 			(justify right)
 		)
 		(uuid "39e53679-f229-465d-8f4b-a462bfa35609")
+	)
+	(hierarchical_label "VOUT"
+		(shape input)
+		(at 203.2 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6915268e-5c88-49fc-9805-dd5f95e946b4")
 	)
 	(hierarchical_label "SCL"
 		(shape input)
@@ -3270,6 +3261,17 @@
 			(justify left)
 		)
 		(uuid "d0662c12-fd45-4415-9284-ec5b652f0903")
+	)
+	(hierarchical_label "VOUT"
+		(shape input)
+		(at 105.41 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f4ac0c6a-9498-4e94-8696-57b3839d5630")
 	)
 	(hierarchical_label "BATSENS"
 		(shape input)
