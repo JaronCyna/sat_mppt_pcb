@@ -150,130 +150,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Interface_Expansion:TCA9548AMRGER"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1064,106 +940,10 @@
 		(uuid "08b0f0d8-a492-4c33-8f08-dc4c24e196fe")
 	)
 	(junction
-		(at 106.68 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "08baeac0-6784-47ec-b3aa-e6b1844cf81f")
-	)
-	(junction
-		(at 220.98 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "10a7bb38-d8b7-44be-b537-8db88268c270")
-	)
-	(junction
-		(at 205.74 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "15b48e8e-2686-4381-b368-5f8790d6fa07")
-	)
-	(junction
-		(at 205.74 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1d4fcbb3-8cef-43a5-8e58-d34e3f9aa951")
-	)
-	(junction
-		(at 129.54 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "26b2fdb8-ab0d-453f-bf86-1e6f9685cb5b")
-	)
-	(junction
-		(at 172.72 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2a04909b-e05b-4cb4-93fd-6ca44d6e9f38")
-	)
-	(junction
-		(at 149.86 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "38451227-60c1-45ea-9165-98d8a8d2a21a")
-	)
-	(junction
-		(at 196.85 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3a13a954-3d8f-4890-9af7-146ae46ee8d2")
-	)
-	(junction
-		(at 181.61 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4023773d-41b4-4c0f-b26b-b41a5ceb10e7")
-	)
-	(junction
-		(at 181.61 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "40f294ad-d914-4a88-bc69-a4b4e8c3eac1")
-	)
-	(junction
-		(at 196.85 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "47d9f7e6-2985-42f0-bee4-4207021c4d8b")
-	)
-	(junction
-		(at 158.75 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5e3e61bd-94dc-4c6e-8b4a-37d482c0eaf7")
-	)
-	(junction
-		(at 149.86 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "61781f88-7f74-42d3-b3f1-e0d7a00c89bd")
-	)
-	(junction
 		(at 123.19 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6ac1203f-a876-4949-8001-713dfdb16295")
-	)
-	(junction
-		(at 106.68 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8895d009-d0e5-494b-8989-32971fb728e8")
-	)
-	(junction
-		(at 220.98 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "928b21b4-5bd9-4f46-b1db-22be9a04cbce")
-	)
-	(junction
-		(at 172.72 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9aa2096a-d08c-4d99-9b0c-5789b60b14c2")
 	)
 	(junction
 		(at 129.54 52.07)
@@ -1172,16 +952,10 @@
 		(uuid "9d916037-7966-4e97-bf0a-9cc46b15c514")
 	)
 	(junction
-		(at 158.75 73.66)
+		(at 106.68 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ab3f7371-cbc2-4ff5-9a8e-4d881d1064e8")
-	)
-	(junction
-		(at 229.87 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bfbc41a3-e162-4dba-a037-18814ffa415e")
+		(uuid "d4208971-f8cb-4228-82dc-c2dc9c3af775")
 	)
 	(junction
 		(at 118.11 101.6)
@@ -1239,16 +1013,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 62.23) (xy 149.86 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c1f67fc-182e-445e-bfdd-d511dfbc2e1e")
-	)
-	(wire
-		(pts
 			(xy 118.11 101.6) (xy 119.38 101.6)
 		)
 		(stroke
@@ -1259,27 +1023,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 69.85) (xy 229.87 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11484689-a592-40ce-a1c0-84ab81f68d9a")
-	)
-	(wire
-		(pts
-			(xy 149.86 69.85) (xy 149.86 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "171de43c-b258-4939-95e0-ef668ed5e7cf")
-	)
-	(wire
-		(pts
-			(xy 205.74 83.82) (xy 209.55 83.82)
+			(xy 139.7 83.82) (xy 209.55 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1319,16 +1063,6 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 69.85) (xy 205.74 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29cbb2e0-ba6f-42c4-a674-2c002b9dec5e")
-	)
-	(wire
-		(pts
 			(xy 139.7 93.98) (xy 143.51 93.98)
 		)
 		(stroke
@@ -1339,23 +1073,13 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 81.28) (xy 196.85 81.28)
+			(xy 139.7 81.28) (xy 209.55 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3632cd2b-002c-444e-aaf9-761ce47ef56d")
-	)
-	(wire
-		(pts
-			(xy 220.98 69.85) (xy 220.98 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36664b24-6c10-4997-801b-71bea2889f1f")
 	)
 	(wire
 		(pts
@@ -1369,16 +1093,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 62.23) (xy 196.85 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "425bec66-3059-4bab-93d5-a29b1315bb5d")
-	)
-	(wire
-		(pts
 			(xy 139.7 99.06) (xy 143.51 99.06)
 		)
 		(stroke
@@ -1389,27 +1103,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 78.74) (xy 185.42 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57fe26e8-5740-4307-a8b5-2a17fc19e303")
-	)
-	(wire
-		(pts
-			(xy 181.61 69.85) (xy 181.61 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59bc86d6-6807-4724-b760-2de2da8272b5")
-	)
-	(wire
-		(pts
-			(xy 158.75 73.66) (xy 161.29 73.66)
+			(xy 139.7 73.66) (xy 161.29 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1429,73 +1123,13 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 86.36) (xy 234.95 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60d9d83a-822f-4f08-a0b1-a260a427e09f")
-	)
-	(wire
-		(pts
-			(xy 205.74 62.23) (xy 220.98 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64607fc5-1dcc-4a14-811a-6f02a788c777")
-	)
-	(wire
-		(pts
-			(xy 158.75 62.23) (xy 172.72 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6618fa7c-8976-43bd-9a23-ae6f9fd7d0d6")
-	)
-	(wire
-		(pts
-			(xy 139.7 71.12) (xy 149.86 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c2f1d7c-d170-47bc-befa-e3f20dca820d")
-	)
-	(wire
-		(pts
-			(xy 229.87 88.9) (xy 234.95 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "713f2855-5294-48d4-95e7-a3102b756ffb")
-	)
-	(wire
-		(pts
-			(xy 129.54 52.07) (xy 129.54 62.23)
+			(xy 129.54 52.07) (xy 129.54 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "79ccbda0-5bee-40b5-b73f-e0a04e8459ff")
-	)
-	(wire
-		(pts
-			(xy 196.85 62.23) (xy 205.74 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "811f9406-c1e7-45dd-8ff8-f4e14f40a15f")
 	)
 	(wire
 		(pts
@@ -1519,16 +1153,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 62.23) (xy 181.61 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85897c78-ec0c-4b3a-8160-c8d7c3ca6b18")
-	)
-	(wire
-		(pts
 			(xy 106.68 52.07) (xy 119.38 52.07)
 		)
 		(stroke
@@ -1539,33 +1163,13 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 76.2) (xy 185.42 76.2)
+			(xy 139.7 76.2) (xy 185.42 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8b1d9552-5bf4-4a24-89a9-0d12c7897794")
-	)
-	(wire
-		(pts
-			(xy 158.75 69.85) (xy 158.75 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e4bdb23-7809-40a4-b853-9b2825b5dfab")
-	)
-	(wire
-		(pts
-			(xy 149.86 62.23) (xy 158.75 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f40f7d2-ca25-4405-a897-5b0d8adceff9")
 	)
 	(wire
 		(pts
@@ -1579,17 +1183,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 69.85) (xy 196.85 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90dfde60-15d9-4072-8c7c-c403f4accac1")
-	)
-	(wire
-		(pts
-			(xy 139.7 78.74) (xy 181.61 78.74)
+			(xy 139.7 78.74) (xy 185.42 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1619,33 +1213,13 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 86.36) (xy 220.98 86.36)
+			(xy 139.7 86.36) (xy 234.95 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a3f2e39e-5aeb-4449-999f-cbb415153e47")
-	)
-	(wire
-		(pts
-			(xy 93.98 59.69) (xy 106.68 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b034920b-1fa1-4879-a1f6-6dd16deb39e2")
-	)
-	(wire
-		(pts
-			(xy 139.7 83.82) (xy 205.74 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b21ef167-b3df-4423-898f-6979b3b93893")
 	)
 	(wire
 		(pts
@@ -1659,17 +1233,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 69.85) (xy 172.72 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bfbb89dc-6efe-455c-9673-5866e4f72631")
-	)
-	(wire
-		(pts
-			(xy 139.7 88.9) (xy 229.87 88.9)
+			(xy 139.7 88.9) (xy 234.95 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1699,26 +1263,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 62.23) (xy 229.87 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5eb4de0-6159-4997-967f-2b0f2a2862ac")
-	)
-	(wire
-		(pts
-			(xy 129.54 62.23) (xy 129.54 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2c67257-e392-4575-a664-31f50a034dc6")
-	)
-	(wire
-		(pts
 			(xy 110.49 83.82) (xy 119.38 83.82)
 		)
 		(stroke
@@ -1726,16 +1270,6 @@
 			(type default)
 		)
 		(uuid "e481578b-c6e9-4185-8fcd-8df229282c9d")
-	)
-	(wire
-		(pts
-			(xy 139.7 76.2) (xy 172.72 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e53a1201-76d6-4e9c-b206-466dc35da1e7")
 	)
 	(wire
 		(pts
@@ -1749,7 +1283,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 71.12) (xy 161.29 71.12)
+			(xy 139.7 71.12) (xy 161.29 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1796,36 +1330,6 @@
 			(type default)
 		)
 		(uuid "f3355709-4705-4e20-8c07-199f846e9dfa")
-	)
-	(wire
-		(pts
-			(xy 139.7 73.66) (xy 158.75 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3a4501b-5881-46b0-9097-59f296ae09fa")
-	)
-	(wire
-		(pts
-			(xy 93.98 52.07) (xy 106.68 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f52fb0dc-530a-4a0c-8ccd-3cba1bc6428d")
-	)
-	(wire
-		(pts
-			(xy 196.85 81.28) (xy 209.55 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fca17d73-46bf-4c60-a629-49d2faee580e")
 	)
 	(hierarchical_label "SCL_+Y"
 		(shape input)
@@ -1949,317 +1453,6 @@
 		(uuid "f4ca10a7-7411-456e-89c3-47c70f729f33")
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 205.74 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1dae1c07-944b-4b70-aa1a-18e178e3c3df")
-		(property "Reference" "R36"
-			(at 208.28 64.7699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.2k"
-			(at 208.28 67.3099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 203.962 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 205.74 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 205.74 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Digikey"
-			(at 205.74 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "AT0603FRE072K2L"
-			(at 205.74 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 205.74 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 205.74 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a482cec8-c0a6-470f-9bfd-165bd3f26648")
-		)
-		(pin "1"
-			(uuid "568daee0-b0f8-44dd-b5b4-accfcf9ea253")
-		)
-		(instances
-			(project "EPS_mppt_board"
-				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/0b35a7b5-b504-4fbf-9bb2-d6dcd13c2d56"
-					(reference "R36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 106.68 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3711d412-b011-47f9-9b41-611223cf02c8")
-		(property "Reference" "C31"
-			(at 110.49 54.6099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 110.49 57.1499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 107.6452 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "kicad-embed://KEM_C1013_X7R_FT-CAP_SMD.pdf"
-			(at 106.68 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "kicad-embed://KEM_C1013_X7R_FT-CAP_SMD.pdf"
-			(at 106.68 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "DigiKey"
-			(at 106.68 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "C0603X104K5RACTU"
-			(at 106.68 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 106.68 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 106.68 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cc8e1789-7282-40f9-8079-a6d0570ccd15")
-		)
-		(pin "2"
-			(uuid "33eb8f28-705b-4171-8786-f3e189bc6d98")
-		)
-		(instances
-			(project "EPS_mppt_board"
-				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/0b35a7b5-b504-4fbf-9bb2-d6dcd13c2d56"
-					(reference "C31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 93.98 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4ce7b3c3-3d9e-4230-bac0-70f24615bf2a")
-		(property "Reference" "C30"
-			(at 97.79 54.6099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10 uF"
-			(at 97.79 57.1499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "zLibrary:CAP_C1210C_X7R_2S_FW_KEM-M"
-			(at 94.9452 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 93.98 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 93.98 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "DigiKey"
-			(at 93.98 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "C1210C106M5R2C7186"
-			(at 93.98 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 93.98 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 93.98 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "35cebcff-4c4f-4442-a2e8-e83fe53e78d5")
-		)
-		(pin "2"
-			(uuid "91b6e702-2447-4678-a40a-b3fee0447295")
-		)
-		(instances
-			(project "EPS_mppt_board"
-				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/0b35a7b5-b504-4fbf-9bb2-d6dcd13c2d56"
-					(reference "C30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 123.19 116.84 0)
 		(unit 1)
@@ -2269,7 +1462,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85d8fd70-b6c0-42cf-bbd6-6d5b703dce22")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR072"
 			(at 123.19 123.19 0)
 			(effects
 				(font
@@ -2319,215 +1512,7 @@
 		(instances
 			(project ""
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/0b35a7b5-b504-4fbf-9bb2-d6dcd13c2d56"
-					(reference "#PWR064")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 158.75 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "88621060-9f26-441e-96f1-0a506d08b213")
-		(property "Reference" "R32"
-			(at 161.29 64.7699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.2k"
-			(at 161.29 67.3099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 156.972 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 158.75 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 158.75 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Digikey"
-			(at 158.75 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "AT0603FRE072K2L"
-			(at 158.75 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 158.75 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 158.75 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "4b0b0b71-66da-4fcc-bac5-fc87a04f7c24")
-		)
-		(pin "1"
-			(uuid "29ad0cc8-afd6-4a29-9cc8-7a4c9a0d9f71")
-		)
-		(instances
-			(project "EPS_mppt_board"
-				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/0b35a7b5-b504-4fbf-9bb2-d6dcd13c2d56"
-					(reference "R32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 172.72 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8a66de35-0c18-4b13-9346-e1f678a02d48")
-		(property "Reference" "R33"
-			(at 175.26 64.7699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.2k"
-			(at 175.26 67.3099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 170.942 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 172.72 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 172.72 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Digikey"
-			(at 172.72 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "AT0603FRE072K2L"
-			(at 172.72 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 172.72 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 172.72 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2a73f6a2-2d2b-4844-9d0f-0a4ff35f7787")
-		)
-		(pin "1"
-			(uuid "6a5cf56b-d3bf-458a-9739-859a264f81c8")
-		)
-		(instances
-			(project "EPS_mppt_board"
-				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/0b35a7b5-b504-4fbf-9bb2-d6dcd13c2d56"
-					(reference "R33")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -2541,9 +1526,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "95c3c337-ae44-4115-8fc6-a01b51fd237a")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR071"
 			(at 106.68 66.04 0)
 			(effects
 				(font
@@ -2593,215 +1577,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/0b35a7b5-b504-4fbf-9bb2-d6dcd13c2d56"
-					(reference "#PWR063")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 149.86 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a14c35a5-49bf-476e-a4bc-e26fda190ad4")
-		(property "Reference" "R31"
-			(at 152.4 64.7699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.2k"
-			(at 152.4 67.3099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 148.082 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 149.86 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 149.86 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Digikey"
-			(at 149.86 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "AT0603FRE072K2L"
-			(at 149.86 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 149.86 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 149.86 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "053409fe-b683-4d3f-a69a-e5f5e763d17f")
-		)
-		(pin "1"
-			(uuid "d8ac59d7-f27f-4f8d-b419-f1aa6f3308e9")
-		)
-		(instances
-			(project ""
-				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/0b35a7b5-b504-4fbf-9bb2-d6dcd13c2d56"
-					(reference "R31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 181.61 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a58135be-e52b-42b5-af3b-25665ea5c8a0")
-		(property "Reference" "R34"
-			(at 184.15 64.7699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.2k"
-			(at 184.15 67.3099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 179.832 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 181.61 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 181.61 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Digikey"
-			(at 181.61 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "AT0603FRE072K2L"
-			(at 181.61 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 181.61 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 181.61 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "45347b47-902d-4c20-8661-0adc7a324288")
-		)
-		(pin "1"
-			(uuid "567abb11-3254-4b6d-b8fd-b18dc8b5ef17")
-		)
-		(instances
-			(project "EPS_mppt_board"
-				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/0b35a7b5-b504-4fbf-9bb2-d6dcd13c2d56"
-					(reference "R34")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -2962,44 +1738,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 220.98 66.04 0)
+		(lib_id "Device:C")
+		(at 106.68 55.88 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b0b57006-a062-4d57-9c98-50822759d082")
-		(property "Reference" "R37"
-			(at 223.52 64.7699 0)
+		(uuid "ae276c21-1828-43a3-beae-684fd0ebd172")
+		(property "Reference" "C36"
+			(at 111.506 54.864 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "2.2k"
-			(at 223.52 67.3099 0)
+		(property "Value" "10 uF"
+			(at 111.506 56.896 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 219.202 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 220.98 66.04 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 105.7148 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3007,8 +1771,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 220.98 66.04 0)
+		(property "Datasheet" ""
+			(at 106.68 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3016,8 +1780,8 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Digikey"
-			(at 220.98 66.04 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 106.68 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3025,8 +1789,17 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "AT0603FRE072K2L"
-			(at 220.98 66.04 0)
+		(property "MANUFACTURER" "DigiKey"
+			(at 106.68 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 106.68 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3035,7 +1808,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 220.98 66.04 0)
+			(at 106.68 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3043,7 +1816,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 220.98 66.04 0)
+			(at 106.68 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3051,119 +1824,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "589a55bc-b502-475b-8554-f796271d325f")
+			(uuid "3748cf1e-aaae-49bb-b3d1-3dc5864b0266")
 		)
 		(pin "1"
-			(uuid "c56dda1e-424b-47fb-918d-094356cdb578")
+			(uuid "51adee97-d90f-4ef9-a52e-54187d9cf7f2")
 		)
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/0b35a7b5-b504-4fbf-9bb2-d6dcd13c2d56"
-					(reference "R37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 229.87 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b888fc14-0f8f-4151-91cd-24671157cca3")
-		(property "Reference" "R38"
-			(at 232.41 64.7699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.2k"
-			(at 232.41 67.3099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 228.092 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 229.87 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 229.87 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Digikey"
-			(at 229.87 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "AT0603FRE072K2L"
-			(at 229.87 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 229.87 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 229.87 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "7adac4b4-e8d5-44ab-8870-c9fe8c6570ef")
-		)
-		(pin "1"
-			(uuid "3ed5ee87-4217-4f94-8985-3e0304e8aacd")
-		)
-		(instances
-			(project "EPS_mppt_board"
-				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/0b35a7b5-b504-4fbf-9bb2-d6dcd13c2d56"
-					(reference "R38")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -3179,7 +1848,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed6bc41d-4a75-49b0-85f0-77aa95477525")
-		(property "Reference" "C32"
+		(property "Reference" "C37"
 			(at 123.19 54.6099 0)
 			(effects
 				(font
@@ -3267,7 +1936,7 @@
 		(instances
 			(project ""
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/0b35a7b5-b504-4fbf-9bb2-d6dcd13c2d56"
-					(reference "C32")
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -3283,7 +1952,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed9f4b9c-857a-4932-a56f-1b9e2671b516")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR073"
 			(at 129.54 53.34 0)
 			(effects
 				(font
@@ -3333,111 +2002,7 @@
 		(instances
 			(project ""
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/0b35a7b5-b504-4fbf-9bb2-d6dcd13c2d56"
-					(reference "#PWR065")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 196.85 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ef6d6017-b010-4b80-bedd-b9b48e380a6b")
-		(property "Reference" "R35"
-			(at 199.39 64.7699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.2k"
-			(at 199.39 67.3099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 195.072 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 196.85 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 196.85 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Digikey"
-			(at 196.85 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "AT0603FRE072K2L"
-			(at 196.85 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 196.85 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 196.85 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "05d3186b-4607-421b-9856-0da112b9218c")
-		)
-		(pin "1"
-			(uuid "bf94c141-4a62-4671-a31b-b465ae24b153")
-		)
-		(instances
-			(project "EPS_mppt_board"
-				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/0b35a7b5-b504-4fbf-9bb2-d6dcd13c2d56"
-					(reference "R35")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
