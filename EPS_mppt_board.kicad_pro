@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 3.18,
-          "height": 6.35,
-          "width": 6.35
+          "drill": 1.02,
+          "height": 1.37,
+          "width": 1.37
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -521,7 +521,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "C:/Users/Jaron/Downloads/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",

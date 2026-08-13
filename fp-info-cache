@@ -1,4 +1,4 @@
-24778335232887877
+24781906558057236
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -99652,12 +99652,26 @@ SRP7028A-4R7M
 2
 2
 zLibrary
+PW0014A-IPC_B
+
+LMK1C1106PWR 
+0
+14
+14
+zLibrary
 RPW0010A-MFG
 
 TPS259470ARPWR 
 0
 10
 10
+zLibrary
+SAMTEC_ESQ-106-39-G-D
+
+
+0
+12
+12
 zLibrary
 SAMTEC_ESQ-126-39-G-D
 

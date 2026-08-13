@@ -978,10 +978,6 @@
 		(uuid "73953678-7a62-499e-96b9-11457ef6b40e")
 	)
 	(no_connect
-		(at 143.51 109.22)
-		(uuid "74446988-e6fa-4c14-8d5b-7a90c8d4b0d8")
-	)
-	(no_connect
 		(at 143.51 104.14)
 		(uuid "78df0526-0c47-4aae-9df2-c9d8886e36c8")
 	)
@@ -996,10 +992,6 @@
 	(no_connect
 		(at 143.51 99.06)
 		(uuid "d6ec7c54-fe9b-4644-8d96-89c452cb41d2")
-	)
-	(no_connect
-		(at 143.51 106.68)
-		(uuid "db021c40-b8de-4da2-841e-62adbc7ca81c")
 	)
 	(wire
 		(pts
@@ -1163,16 +1155,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 76.2) (xy 185.42 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b1d9552-5bf4-4a24-89a9-0d12c7897794")
-	)
-	(wire
-		(pts
 			(xy 139.7 91.44) (xy 143.51 91.44)
 		)
 		(stroke
@@ -1180,16 +1162,6 @@
 			(type default)
 		)
 		(uuid "90c6bed3-7149-4ea4-80d0-68318cede384")
-	)
-	(wire
-		(pts
-			(xy 139.7 78.74) (xy 185.42 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9235aaa0-c1e2-433c-a86e-f1bd2040ac37")
 	)
 	(wire
 		(pts
@@ -1375,6 +1347,17 @@
 		)
 		(uuid "3c953a48-43e8-4045-abd7-ae7fca6d23ee")
 	)
+	(hierarchical_label "SDA_-X"
+		(shape input)
+		(at 143.51 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "401c2fe0-e62d-4b5e-bbee-9c4546da4611")
+	)
 	(hierarchical_label "I2C_Reset"
 		(shape input)
 		(at 110.49 83.82 180)
@@ -1419,17 +1402,6 @@
 		)
 		(uuid "95c2732e-641a-41a3-9785-fe20399285c5")
 	)
-	(hierarchical_label "SCL_-X"
-		(shape input)
-		(at 185.42 76.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d084a882-5500-4a45-8301-4bae6af72012")
-	)
 	(hierarchical_label "SDA_+X"
 		(shape input)
 		(at 161.29 73.66 0)
@@ -1441,16 +1413,16 @@
 		)
 		(uuid "e0a64754-71c8-4a64-90f8-88968b865b99")
 	)
-	(hierarchical_label "SDA_-X"
+	(hierarchical_label "SCL_-X"
 		(shape input)
-		(at 185.42 78.74 0)
+		(at 143.51 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "f4ca10a7-7411-456e-89c3-47c70f729f33")
+		(uuid "ef81874c-1d1f-443d-9876-22342fcb131b")
 	)
 	(symbol
 		(lib_id "power:GND")
