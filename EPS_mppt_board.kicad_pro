@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.02,
-          "height": 1.37,
-          "width": 1.37
+          "drill": 2.3,
+          "height": 2.3,
+          "width": 2.3
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -58,7 +58,40 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "items_not_allowed|106350009|109030007|7b1bfe40-d51a-4c22-84fb-ea7065970ffc|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "items_not_allowed|106350009|120030007|c7cfcff2-2609-45a6-9a9d-6310e174c957|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "items_not_allowed|106350009|67640007|f6c24877-29b6-4977-a88c-6bba3f384faf|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "items_not_allowed|106350009|78640007|81fd09f9-672b-42aa-9483-fbd1a366b9c5|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "items_not_allowed|181920009|109030007|209f7758-1d36-4216-9d57-93378b132800|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "items_not_allowed|181920009|120030007|cf63ae0c-dc34-4666-90ed-d30e07d024e8|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "items_not_allowed|181920009|67640007|85730fdf-264e-4a20-a709-552503d841a9|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "items_not_allowed|181920009|78640007|8f563e6f-fd7d-4955-9067-8cc2ba7a8746|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -133,10 +166,10 @@
         "min_resolved_spokes": 4,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
-        "min_text_thickness": 0.1524,
-        "min_through_hole_diameter": 0.3,
+        "min_text_thickness": 0.15,
+        "min_through_hole_diameter": 0.2,
         "min_track_width": 0.1524,
-        "min_via_annular_width": 0.1524,
+        "min_via_annular_width": 0.15,
         "min_via_diameter": 0.6,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
@@ -223,7 +256,7 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.6,
+          "diameter": 0.65,
           "drill": 0.3
         },
         {
@@ -492,7 +525,7 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
-        "via_diameter": 0.6,
+        "via_diameter": 0.65,
         "via_drill": 0.3,
         "wire_width": 6
       }
