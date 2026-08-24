@@ -2528,6 +2528,17 @@
 		)
 		(uuid "00a9bc63-9e09-4c4c-b566-2bd61d6c5767")
 	)
+	(hierarchical_label "Thermister-X"
+		(shape input)
+		(at 238.76 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0763ceb3-fbaa-4914-a8be-e7f630d0219e")
+	)
 	(hierarchical_label "!VAL3"
 		(shape input)
 		(at 184.15 83.82 180)
@@ -2583,7 +2594,7 @@
 		)
 		(uuid "372f09e5-bbc3-486d-b885-f9c2b20ba942")
 	)
-	(hierarchical_label "Thermister+X"
+	(hierarchical_label "Thermister+Y"
 		(shape input)
 		(at 238.76 135.89 0)
 		(effects
@@ -2592,7 +2603,7 @@
 			)
 			(justify left)
 		)
-		(uuid "4e142a35-9416-41fc-a452-e069c0645370")
+		(uuid "37943e0d-7f6d-44cc-a272-2ac2636b4a60")
 	)
 	(hierarchical_label "3V3_ADCS"
 		(shape input)
@@ -2605,16 +2616,16 @@
 		)
 		(uuid "4f51988a-f72a-4822-8c36-62160727c916")
 	)
-	(hierarchical_label "Thermister-X"
-		(shape input)
-		(at 213.36 138.43 180)
+	(hierarchical_label "-X_Solar_IN"
+		(shape output)
+		(at 54.61 181.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "764f5f09-cc39-422e-90d6-40adf579983a")
+		(uuid "91badb63-3ede-47d9-be43-ae81a6c499bb")
 	)
 	(hierarchical_label "3V3_ADCS"
 		(shape input)
@@ -2660,7 +2671,18 @@
 		)
 		(uuid "b2d27d7b-95c5-4ffe-bab4-9955a3b32839")
 	)
-	(hierarchical_label "-X_Solar_IN"
+	(hierarchical_label "BattSen2"
+		(shape input)
+		(at 238.76 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b3f60847-1985-4772-b0be-fa96fe452b5e")
+	)
+	(hierarchical_label "+Y_Solar_IN"
 		(shape output)
 		(at 109.22 161.29 0)
 		(effects
@@ -2669,7 +2691,18 @@
 			)
 			(justify left)
 		)
-		(uuid "bd7605b5-b4d8-45f2-9d02-89ea2df86c0a")
+		(uuid "b6a72cb3-95a5-4b78-a454-39fdc605ec30")
+	)
+	(hierarchical_label "BattSen1"
+		(shape input)
+		(at 213.36 138.43 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b9dc5386-3211-48e5-998e-884abe7cfada")
 	)
 	(hierarchical_label "3V3_OBC"
 		(shape input)
@@ -2692,28 +2725,6 @@
 			(justify left)
 		)
 		(uuid "c482dcf3-c179-4889-ba9b-779cc9c94a7d")
-	)
-	(hierarchical_label "Thermister+Y"
-		(shape input)
-		(at 238.76 140.97 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "dc459c00-e8bc-48e5-a606-87c70a00812b")
-	)
-	(hierarchical_label "+Y_Solar_IN"
-		(shape output)
-		(at 54.61 181.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "dcc685f4-fe64-406e-8627-0cb8f615cb5b")
 	)
 	(hierarchical_label "Thermister-Y"
 		(shape input)
@@ -2747,6 +2758,17 @@
 			(justify right)
 		)
 		(uuid "f860f28c-a41b-43a7-8d56-5f625550f968")
+	)
+	(hierarchical_label "Thermister+X"
+		(shape input)
+		(at 213.36 148.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fb9cb002-85a1-49e2-b23f-ee10ad406b05")
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")

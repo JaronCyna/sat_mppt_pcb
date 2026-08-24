@@ -1966,7 +1966,7 @@
 		)
 		(uuid "d4ae4c05-7f56-4d83-8397-272a8b8134ad")
 	)
-	(text_box "The NTC Pin Will likely be on the Battery Board for measuring battery Temp"
+	(text_box "The NTC Pin Will be on the Battery Board for measuring battery Temp"
 		(exclude_from_sim no)
 		(at 259.08 63.5 0)
 		(size 21.59 12.7)
@@ -2008,28 +2008,7 @@
 		)
 		(uuid "0b32dd25-566b-433c-b12b-7bd07b159cbf")
 	)
-	(text_box "Either through PC/104 (Noisy) or Molex Micro-Fit"
-		(exclude_from_sim no)
-		(at 259.08 76.2 0)
-		(size 21.59 12.7)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type color)
-			(color 158 218 255 1)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "62a2f956-0086-46f8-b17d-35c51c3a0f6f")
-	)
-	(text_box "have a TIM output at 1.5MHz from one pin to all SYNCs and keep all 44.2k ohm resistors. This will sync all of their freqs and negate the risk of beat freqs"
+	(text_box "have a TIM output at 1.5MHz from one pin to all SYNCs and keep all 63.4k ohm resistors. This will sync all of their freqs and negate the risk of beat freqs"
 		(exclude_from_sim no)
 		(at 54.61 125.73 0)
 		(size 30.48 16.51)
@@ -2070,48 +2049,6 @@
 			(justify left top)
 		)
 		(uuid "7e48b39a-bc3a-4a2a-87cf-5443523103f1")
-	)
-	(text_box "If molex is used, wire will need to be twisted for noise, and a cap will need to be placed next to ntc pin\n"
-		(exclude_from_sim no)
-		(at 259.08 88.9 0)
-		(size 21.59 13.97)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type color)
-			(color 158 218 255 1)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "7fd8e144-f3d5-4018-82f6-8a6b5c2d3222")
-	)
-	(text_box "Right now I have a signal for when something has gone wrong to the MCU but nothing the MCU can do about that, Need to fix that"
-		(exclude_from_sim no)
-		(at 228.6 85.09 0)
-		(size 25.4 17.78)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type color)
-			(color 158 218 255 1)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "f736244c-252e-47b1-a8a7-fdf3ed3ac851")
 	)
 	(junction
 		(at 193.04 101.6)

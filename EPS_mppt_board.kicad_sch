@@ -58,7 +58,7 @@
 		)
 		(uuid "9802b0d3-a16c-452f-91a2-4fd143b01db4")
 	)
-	(text_box "This is the second QSET EPS board for the mission planned for launch in 2028-2029. It was designed by Jaron Cyna (23wbjx@queensu.ca). Feel free to reach out to me if there are any questions regarding the board.\n\nHIGH LEVEL BOARD VIEW:\nThis board is meant to provide a few key properties to the board:\n1: Maximum Power Point Tracking (MPPT) to track and maintain optimal charging speed from solar panels\n2: 3V3 and 5V lines to provide power to ADCS, OBC, and (possibly) comms\n3: Telemetry and fault detection which is processed by the onboard MCU and sent to OBC for interpretation over CAN\n	3.1: Telemetry includes many integrated elements of the different IC's, external MCU watchdog, and a current sensor on all lines.\n	3.2: Fault detection also has integrated elements from the ICs, but the primary detection comes from the E-Fuses integrated throughout the board"
+	(text_box "This is the second QSET EPS board for the mission planned for launch in 2028-2029. It was designed by Jaron Cyna (23wbjx@queensu.ca). Feel free to reach out to me if there are any questions regarding the board.\n\nHIGH LEVEL BOARD VIEW:\nThis board is meant to provide a few key properties to the board:\n1: Maximum Power Point Tracking (MPPT) to track and maintain optimal charging speed from solar panels\n2: 3V3 and 5V lines to provide power to ADCS, and OBC\n3: Telemetry and fault detection which is processed by the onboard MCU and sent to OBC for interpretation over CAN\n	3.1: Telemetry includes many integrated elements of the different IC's, external MCU watchdog, and a current sensor on all lines.\n	3.2: Fault detection also has integrated elements from the ICs, but the primary detection comes from the E-Fuses integrated throughout the board"
 		(exclude_from_sim no)
 		(at 13.97 22.86 0)
 		(size 118.11 26.67)
@@ -505,6 +505,16 @@
 	)
 	(wire
 		(pts
+			(xy 367.03 104.14) (xy 367.03 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4619b62f-aeb7-490e-8a46-3c32db710a07")
+	)
+	(wire
+		(pts
 			(xy 293.37 148.59) (xy 297.18 148.59)
 		)
 		(stroke
@@ -513,6 +523,16 @@
 			(color 57 211 255 1)
 		)
 		(uuid "462b05ec-7e8d-47f4-b412-5e5be3bd898b")
+	)
+	(wire
+		(pts
+			(xy 39.37 96.52) (xy 39.37 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46756cd8-d7e3-41fb-a4bc-bc761e5ba779")
 	)
 	(wire
 		(pts
@@ -1140,6 +1160,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 66.04) (xy 369.57 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0888520-6ad4-45eb-ae22-fb418d4b4c14")
+	)
+	(wire
+		(pts
 			(xy 227.33 111.76) (xy 340.36 111.76)
 		)
 		(stroke
@@ -1407,6 +1437,16 @@
 	)
 	(wire
 		(pts
+			(xy 369.57 66.04) (xy 369.57 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "deca891c-57b3-4b4f-bbe8-49f9e0149eb2")
+	)
+	(wire
+		(pts
 			(xy 402.59 147.32) (xy 379.73 147.32)
 		)
 		(stroke
@@ -1552,6 +1592,16 @@
 	)
 	(wire
 		(pts
+			(xy 367.03 68.58) (xy 41.91 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef0ce4d4-400f-4d30-b325-60aede60b633")
+	)
+	(wire
+		(pts
 			(xy 175.26 229.87) (xy 175.26 243.84)
 		)
 		(stroke
@@ -1559,6 +1609,16 @@
 			(type default)
 		)
 		(uuid "f0aaf22b-9ea8-409b-ac00-da0dd1def350")
+	)
+	(wire
+		(pts
+			(xy 41.91 68.58) (xy 41.91 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f15c36b0-58f0-4ead-957c-be4d376a9dc8")
 	)
 	(polyline
 		(pts
@@ -1990,7 +2050,7 @@
 		)
 		(uuid "154a146f-e13c-49ce-9bd5-d811e5485ce9")
 		(property "Sheetname" "PC104"
-			(at 27.94 95.8084 0)
+			(at 27.686 95.758 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1999,7 +2059,7 @@
 			)
 		)
 		(property "Sheetfile" "PC104.kicad_sch"
-			(at 27.432 98.044 0)
+			(at 25.654 117.602 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2177,6 +2237,26 @@
 				(justify right)
 			)
 		)
+		(pin "BattSen1" input
+			(at 39.37 96.52 90)
+			(uuid "ce64dca9-3f90-4030-8173-7280978f5b04")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BattSen2" input
+			(at 41.91 96.52 90)
+			(uuid "411975f0-aaba-4cc7-b27f-9683a6c1f887")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed"
@@ -2201,7 +2281,7 @@
 			(color 255 255 194 1.0000)
 		)
 		(uuid "1cb04f15-5cd4-4c9d-a391-62735eda9253")
-		(property "Sheetname" "3.3V Logic"
+		(property "Sheetname" "EPS Logic"
 			(at 167.64 254.5584 0)
 			(effects
 				(font
@@ -3293,6 +3373,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "BattSen1" input
+			(at 369.57 104.14 90)
+			(uuid "3a7e2c72-5764-45f2-ad89-cb0357bf2a4a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BattSen2" input
+			(at 367.03 104.14 90)
+			(uuid "84b9e811-8e2d-4d48-9d2b-c02c0e1e7849")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

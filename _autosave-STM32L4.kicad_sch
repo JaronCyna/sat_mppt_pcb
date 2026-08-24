@@ -7,7 +7,7 @@
 	(title_block
 		(title "STM32L4 Schematic")
 		(date "2026-03-17")
-		(rev "1.1")
+		(rev "1.2")
 		(company "QSET (Jaron Cyna)")
 		(comment 1 "Switched to STM32L4 from G4")
 	)
