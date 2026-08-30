@@ -134,14 +134,14 @@ Sat_MPPT_PCB/
 
 ## Simulation & Verification
 
-* **Orbital Efficiency Simulation (`scripts/mppt_efficiency_sim.py`)**:
-  Simulates a 4-sided CubeSat undergoing full 360° orbit rotation with partial solar incidence and thermal cell degradation. Demonstrates a **+15% to +25% net energy harvest advantage** using 4 independent MPPT channels compared to a single centralized MPPT with blocking diodes.
 * **Switching & Transient Simulations**:
   LTspice models verified buck converter stability, hot-loop parasitic response, and transient load step response (0.1A to 3.0A step with <15 mV voltage deviation).
 
+* **SPICE**:
+  All IC's with available SPICE models were simullated in PSPICE or LTSPICE.
+
 ---
 
-## Author & Project Background
+## Project Background
 
-* **Author**: [Jaron Cyna](https://github.com/jaroncyna) &mdash; Electrical Power Systems Lead, Queen's Space Engineering Team (QSET)
 * **Detailed Technical Writeup**: Read the full post on [Creating an MPPT System for Max Charge Efficiency on Satellite](https://jaroncyna.github.io/posts/MPPT-Satellite-Charger/)
