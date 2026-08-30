@@ -1,0 +1,25 @@
+﻿# KiCad temporary, autosave, and backup files
+*.bak
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*-save.kicad_sch
+*-save.kicad_pcb
+_autosave-*
+*.lck
+~*.lck
+#auto_saved_files#
+
+# KiCad project local settings (window positions, zoom, etc.)
+*.kicad_prl
+
+# KiCad cache and log files
+fp-info-cache
+*.log
+
+# KiCad automatic project backups directory
+*-backups/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
